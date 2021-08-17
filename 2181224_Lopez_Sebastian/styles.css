@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    background-color: rgb(214, 214, 214);
+
+}
+
+img {
+    width: 50px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-bottom-style: solid;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+article {
+    display: flex;
+    height: 75px;
+    padding-top: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(176, 176, 176);
+    border-bottom-width: 1px;
+}
+
+.section_head {
+    flex: 1;
+}
+
+.section_Article{
+    flex: 1;
+}
+
+.section_Title{
+    height: 50px;
+    padding-top: 50px;
+    border-bottom-style: solid;
+}
+
+footer {
+    margin: 0px 20px;
+    border-top-style: solid;
+}
