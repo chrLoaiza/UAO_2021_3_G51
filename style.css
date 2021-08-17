@@ -1,0 +1,149 @@
+.titu{
+color: rgb(202, 224, 224);
+font-family:cursive;
+text-align: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-image: url("./img/fondo.jpg");
+height: 12%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkslategray; 
+ }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 9px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+.boxparrafo1{
+    
+    box-sizing: content-box;
+    width: 80%;
+    background-color: rgb(129, 161, 161);
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    
+  } 
+  
+  .parrafo1
+  {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .list{
+    text-align: left;
+    display:inline-block;
+ }
+
+ .snake{
+   margin-left: 20px;
+   float: left;
+ }
+
+ .iguana{
+  margin-right: 35px;
+  float: right;
+}
+
+.linea{
+  margin-right: 15px;
+  float: right;
+}
+
+.linea2{
+  margin-right: 15px;
+  float: left;
+}
+
+.primeranimal{
+  margin-top: 5%;
+  width: 50;
+}
+
+.card {
+  float:left;
+  margin-left: 10px;
+  background-color: rgb(129, 161, 161);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 44%;
+  border-radius: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(121, 20, 20, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.p1{
+  font-family: 'Courier New', Courier, monospace;
+text-align: justify;
+}
+
+h2{
+  text-align: center;
+}
+
+.linea3{
+  margin-top: 20px;
+  margin-right: 15px;
+  float: right;
+}
+
+.linea4{
+  margin-top: 20px;
+  margin-right: 15px;
+  float: left;
+}
+
+  .gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: left;
+  width: 280px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
