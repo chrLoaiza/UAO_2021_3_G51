@@ -179,9 +179,9 @@ button:hover{
 
 
 .featured_container{
-    display: flex;
-    row-gap: 32px;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
     padding: 20px;
     margin: 15px 30px;
 }
@@ -293,7 +293,8 @@ button:hover{
     }
 
     .featured_container{
-        flex-direction: column-reverse;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
         padding: 5px;
     }
     .products_sale{
