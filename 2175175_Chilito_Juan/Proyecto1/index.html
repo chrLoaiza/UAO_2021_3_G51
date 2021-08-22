@@ -4,55 +4,79 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Mi primera pagina</title>
+        <script defer src="index.js"></script>
+        <script src="https://kit.fontawesome.com/2fcfa1da38.js" crossorigin="anonymous"></script>
     </head>
-    <header>
-        <div class="Titulos">
-            <h1>Titulo del proyecto</h1>
-            <h2>Subtitulo del proyecto</h2>
-        </div>
-        <div class="links">
-            <a href="https://www.w3schools.com/tags/tag_a.asp">Primer Link</a>
-            <a href="https://www.w3schools.com/tags/tag_a.asp">Primer Link</a>
-            <a href="https://www.w3schools.com/tags/tag_a.asp">Primer Link</a>
-            <a href="https://www.w3schools.com/tags/tag_a.asp">Primer Link</a>
-            <a href="https://www.w3schools.com/tags/tag_a.asp">Primer Link</a>
-        </div>
-    </header>
-
     <body>
-        <img id="imagen_principal" src="/taller1_web//imagenes/Captura_pantalla.png" alt="Imagen git">
-        <aside>
-            <div class="publicidad">
-                <img src="/taller1_web//imagenes/uao2.jpg">
-                <img src="/taller1_web//imagenes/menu.jpg">
-                <img src="/taller1_web//imagenes/Dragon_Render_1.jpg">
-                <img src="/taller1_web/imagenes/20210331_125001.jpg">
+        <div class="container">
+            <div class="navbar">
+                <img src="../Proyecto1/Playstation_Img/logo.png" class="logo">
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="">Controles</a></li>
+                        <li><a href="">Productos En Sale</a></li>
+                        <li><a href="">Controles Remotos</a></li>
+                        <li><a href="">Otros</a></li>
+                    </ul>
+                </nav>
+                <img src="../Proyecto1/Playstation_Img/menu.png" class="menu-icon" onclick="togglemenu()">
             </div>
-        </aside>
-        <div class="parrafo">
-            <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
-            <p>Epcot is a theme park at Walt Disney World Resort <br> 
-                featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
         </div>
-    </body>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2<br>Dualshock 4</h2>
+                <h3>Wireless Controller for Playstation 4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$240.000</h4>
+                <button type="button">Comprar Ahora <img src="../Proyecto1/Playstation_Img/arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="../Proyecto1/Playstation_Img/ps4controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="../Proyecto1/Playstation_Img/add.png">
+                    <p><small>Añadir al carrito</small></p>
+                </div>
+            </div>
+        </div>
 
-    <footer>
-        <div class="informacion_contacto">
-            <h3>Contactenos</h3>
-            <p id="direccion">Av. los rosales 122 <br>28021, Madrid</p>
-            <p id="telefono">Tel: 914-123-456 <br>Fax: 914-123-456</p>
-            <p id="correo">info@misitio.com</p>
+        <section class="featured section" id="fectured">
+            <h2 class="section-title">Productos en sale</h2>
+
+            <div class="featured_container bd-grid">
+                <article class="products">
+                    <div class="products_sale">Sale</div>
+                    <img src="../Proyecto1/Playstation_Img/ps4console.png" class="product_img">
+                    <span class="product_name">Consola PS4</span>
+                    <span class="product_price">$1.300.000</span>
+                    <button type="button">Comprar Ahora <img src="../Proyecto1/Playstation_Img/arrow.png"></button>
+                </article>
+                <article class="products">
+                    <div class="products_sale">Sale</div>
+                    <img src="../Proyecto1/Playstation_Img/cargador.png" class="product_img">
+                    <span class="product_name">Estacion de carga</span>
+                    <span class="product_price">$500.000</span>
+                    <button type="button">Comprar Ahora <img src="../Proyecto1/Playstation_Img/arrow.png"></button>
+                </article>
+                <article class="products">
+                    <div class="products_sale">Sale</div>
+                    <img src="../Proyecto1/Playstation_Img/ps4white.png" class="product_img">
+                    <span class="product_name">Consola PS4</span>
+                    <span class="product_price">$1.300.000</span>
+                    <button type="button">Comprar Ahora <img src="../Proyecto1/Playstation_Img/arrow.png"></button>
+                </article>
+            </div>
+        </section>
+
+        <div class="social-links">
+            <img src="../Proyecto1/Playstation_Img/fb.png">
+            <img src="../Proyecto1/Playstation_Img/tw.png"> 
+            <img src="../Proyecto1/Playstation_Img/ig.png">
         </div>
-        <form action="">
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-            <input type="email" id="correo" name="correo" placeholder="Email">
-            <input type="tel" id="telefono" name="telefono" placeholder="Telefono">
-            <input type="text" id="mensaje" placeholder="Escribe tu mensaje aqui...">
-            <button>Enviar</button>
-            
-        </form>
-        
-    </footer>
+
+    </body>
+    
 
 </html>
