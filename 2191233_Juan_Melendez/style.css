@@ -25,18 +25,15 @@ box-sizing: border-box;
 }
 
 /* HEADER */
-#logo-principal{
+img{
     /* Ancho */
-    width: 300px;
+    width: 350px;
     /* Alto */
-    height: 300px;
-    /* Color de fondo */
-    background-color: rgba(138, 43, 226, 1);
-    /* cambio el posicionamiento */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -80%);
+    height: 140px;
+    position: relative;
+    top: 300px;
+    left: 510px;
+    right: 600px;
 }
 #menu-principal{
     /* Ancho */
