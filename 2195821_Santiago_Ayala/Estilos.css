@@ -1,0 +1,146 @@
+*{
+    /* margenes*/
+    margin: 0;
+    /*relleno*/
+    padding: 0;
+    /*sumen al relleno*/
+    box-sizing: border-box;
+    }
+    .container{
+        /* Ancho */
+        width: 100%;
+        max-width: 1200px;
+        /* margin auto */
+        margin: auto;
+        /* Color de fondo */
+        background-color: rgb(248, 39, 39);
+    }
+    
+    .row{
+        /* Cambio la disposicion a flexible */
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    /* HEADER */
+    img{
+        width: 550px;
+        height: 150px;
+        position:relative;
+        right: 150px;
+        left: 669px;
+        display: block;
+        
+    }
+       
+    #menu-principal{
+        /* Ancho */
+        width: 550%;
+        /* Alto temporal */
+        height: 650px;
+        /* Color de fondo */
+        background-color: rgb(255, 255, 255);
+        /* posición */
+        position: absolute;
+        left: 0;
+        top:50%;
+        transform: translateY(300%);
+    }
+    
+    #imagen-principal{
+        /*Ancho*/
+        width: 100%;
+        /*Alto*/
+        height: 100vh;
+        /*Color de fondo*/
+        background-color: rgb(248, 39, 39);
+        /* disposición de la imagen */
+        display: block;
+    }
+    
+    /* ------------------------------------ */
+    
+    /*  */
+    
+    #section-clases{
+        /* margen */
+        margin:100px 0;
+        /* centro */
+        text-align: center;
+    }
+    .clase-index{
+        /* ancho */
+        width: 25%;
+        /* relleno */
+        padding: 10px;
+        /* izquierda */
+        text-align: left;
+    }
+    
+    .clase-index > figure{
+       /* color de fondo */
+       background-color: rgb(255, 255, 255);
+       /* ancho */
+       width: 100%;
+       /* alto */
+       height: 160px;
+       /* máscara */
+       overflow: hidden;
+       /* margen  */
+       margin: 0 0 10px 0;
+    }
+    #formulario-index{
+        /* ancho */
+        width: 100%;
+         /* margen  */
+        margin: 100px 0;
+         /* relleno */
+        padding: 50px 0;
+         
+        background-color: rgb(248, 39, 39);
+        
+        text-align: center;
+    }
+    #inscripcion{
+        width: 100%;
+        /* ancho */
+        max-width: 350px;
+        /* Centro */
+        margin: 50px auto;
+    }
+    #inscripcion > div > label{
+        color: rgb(255, 255, 255);
+        /* Cambio */
+        display: block;
+        /*  izquierda */
+        text-align: left;
+    }
+    #label-datos{
+        /*  check box */
+        display: inline !important;
+    }
+    .field{
+        /* ancho */
+        width: 100%;
+        /* margen */
+        margin: 5px 0 10px 0;
+        /* alto */
+        height: 28px;
+        /* Quito el fondo */
+        background: none;
+        /* Borde */
+        border: 1px solid white;
+    }
+    .boton{
+        /* Disposicion */
+        display: inline-block;
+        /* Margen */
+        margin: 10px 0 10px 0;
+        /* Relleno */
+        padding: 6px 15px;
+        /* Cursor */
+        cursor: pointer;
+    }
+    .boton:hover{
+        /* Fondo */
+        background-color: rgb(255, 255, 255); }
