@@ -24,20 +24,20 @@
     
     /* HEADER */
     img{
-        width: 350px;
+        width: 550px;
         height: 150px;
         position:relative;
         right: 150px;
-        left: 500px;
+        left: 669px;
         display: block;
         
     }
        
     #menu-principal{
         /* Ancho */
-        width: 100%;
+        width: 550%;
         /* Alto temporal */
-        height: 30px;
+        height: 650px;
         /* Color de fondo */
         background-color: rgb(255, 255, 255);
         /* posición */
