@@ -29,7 +29,7 @@
         position:relative;
         right: 150px;
         left: 669px;
-        display: block;
+        
         
     }
        
@@ -47,16 +47,8 @@
         transform: translateY(300%);
     }
     
-    #imagen-principal{
-        /*Ancho*/
-        width: 100%;
-        /*Alto*/
-        height: vh;
-        /*Color de fondo*/
-        background-color: rgb(248, 39, 39);
-        /* disposición de la imagen */
-        display: block;
-    }
+   
+    
     
     /* ------------------------------------ */
     
