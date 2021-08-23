@@ -12,6 +12,7 @@ box-sizing: border-box;
     /* Ancho */
     width: 100%;
     max-width: 1200px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* Centro contenedor en pantalla con margin auto */
     margin: auto;
     /* Color de fondo */
@@ -40,13 +41,18 @@ img{
     width: 100%;
     /* Alto temporal */
     height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* Color de fondo */
-    background-color: rgb(230, 175, 189);
+    background-color: rgb(180, 196, 241);
     /* cambio el posicionamiento */
     position: absolute;
     left: 0;
     top:50%;
-    transform: translateY(300%);
+    transform: translateY(600%);
+}
+#menu-basico{
+    left: 100%;
+    right: 500%;
 }
 
 #imagen-principal{
@@ -55,6 +61,7 @@ img{
     /*Alto*/
     height: 100vh;
     /*Color de fondo*/
+    top:15%;
     background-color: rgb(3, 176, 245);
     /*Cambio la disposición de la imagen a bloque*/
     display: block;
@@ -98,6 +105,8 @@ img{
     margin: 100px 0;
      /* relleno: top right bottom left */
     padding: 50px 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      
     background-color: royalblue;
     
