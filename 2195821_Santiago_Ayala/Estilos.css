@@ -37,7 +37,7 @@
         /* Ancho */
         width: 550%;
         /* Alto temporal */
-        height: 650px;
+        height: 320px;
         /* Color de fondo */
         background-color: rgb(255, 255, 255);
         /* posición */
@@ -51,7 +51,7 @@
         /*Ancho*/
         width: 100%;
         /*Alto*/
-        height: 100vh;
+        height: vh;
         /*Color de fondo*/
         background-color: rgb(248, 39, 39);
         /* disposición de la imagen */
