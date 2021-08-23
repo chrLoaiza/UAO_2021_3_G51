@@ -1,0 +1,149 @@
+*{
+    /* margenes*/
+    margin: 0;
+    /*relleno*/
+    padding: 0;
+    /*Evitar que los anchos del relleno se sumen al relleno*/
+    box-sizing: border-box;
+    }
+    .container{
+        /* Ancho */
+        width: 100%;
+        max-width: 1200px;
+        /* Centro contenedor en pantalla con margin auto */
+        margin: auto;
+        /* Color de fondo */
+        background-color: rgb(248, 39, 39);
+    }
+    
+    .row{
+        /* Cambio la disposicion a flexible */
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    /* HEADER */
+    #logo-principal{
+        /* Ancho */
+        width: 300px;
+        /* Alto */
+        height: 300px;
+        /* Color de fondo */
+        background-color: rgb(255, 255, 255);
+        /* cambio el posicionamiento */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -80%);
+    }
+    #menu-principal{
+        /* Ancho */
+        width: 100%;
+        /* Alto temporal */
+        height: 30px;
+        /* Color de fondo */
+        background-color: rgb(255, 255, 255);
+        /* cambio el posicionamiento */
+        position: absolute;
+        left: 0;
+        top:50%;
+        transform: translateY(300%);
+    }
+    
+    #imagen-principal{
+        /*Ancho*/
+        width: 100%;
+        /*Alto*/
+        height: 100vh;
+        /*Color de fondo*/
+        background-color: rgb(248, 39, 39);
+        /*Cambio la disposición de la imagen a bloque*/
+        display: block;
+    }
+    
+    /* ------------------------------------ */
+    
+    /* CLASES DE MÚSICA */
+    
+    #section-clases{
+        /* margen: top right bottom left */
+        margin:100px 0;
+        /* doy alineación al texto en el centro */
+        text-align: center;
+    }
+    .clase-index{
+        /* ancho */
+        width: 25%;
+        /* relleno: top right bottom left */
+        padding: 10px;
+        /* doy alineación al texto a la izquierda */
+        text-align: left;
+    }
+    
+    .clase-index > figure{
+       /* color de fondo */
+       background-color: rgb(255, 255, 255);
+       /* ancho */
+       width: 100%;
+       /* alto */
+       height: 160px;
+       /* máscara */
+       overflow: hidden;
+       /* margen inferior: top right bottom left */
+       margin: 0 0 10px 0;
+    }
+    #formulario-index{
+        /* ancho */
+        width: 100%;
+         /* margen inferior: top right bottom left */
+        margin: 100px 0;
+         /* relleno: top right bottom left */
+        padding: 50px 0;
+         
+        background-color: rgb(248, 39, 39);
+        
+        text-align: center;
+    }
+    #inscripcion{
+        width: 100%;
+        /* ancho */
+        max-width: 350px;
+        /* Centro el elemento con margin: auto- en la derecha y la izquierda*/
+        margin: 50px auto;
+    }
+    #inscripcion > div > label{
+        color: rgb(255, 255, 255);
+        /* Cambio la disposicion de label a bloque */
+        display: block;
+        /* alineo el texto a la izquierda */
+        text-align: left;
+    }
+    #label-datos{
+        /* Cambio la disposicion del label que acompaña el check box */
+        display: inline !important;
+    }
+    .field{
+        /* ancho */
+        width: 100%;
+        /* margen: top right bottom left */
+        margin: 5px 0 10px 0;
+        /* alto */
+        height: 28px;
+        /* Quito el fondo */
+        background: none;
+        /* Borde */
+        border: 1px solid white;
+    }
+    .boton{
+        /* Disposicion */
+        display: inline-block;
+        /* Margen: top right bottom left */
+        margin: 10px 0 10px 0;
+        /* Relleno: top right bottom left */
+        padding: 6px 15px;
+        /* Cursor */
+        cursor: pointer;
+    }
+    .boton:hover{
+        /* Fondo */
+        background-color: rgb(255, 255, 255); }
