@@ -1,0 +1,81 @@
+.titulo1{
+    font-size: x-large;
+    color: blue;
+}
+
+#general1{
+    margin: auto;
+    margin-top: 20px;
+    width: 960px;
+    height: 800px;
+    background-color: red;
+}
+
+.container{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    width: 1330px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.container2{
+   
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color: rgb(53, 63, 195);
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color: aqua;
+}
+
+.busqueda{
+    
+    margin: 100px right;
+    width: 300px;
+    height: 50px;
+}
+
+.container3{
+    
+    background-color: rgb(162, 102, 241);
+    box-sizing: border-box;
+    width: 1330px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.container4{
+    
+    background-color: rgb(136, 255, 152);
+    box-sizing: border-box;
+    width: 1330px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.Sagas{
+    background-color: rgb(255, 188, 111);
+    box-sizing: border-box;
+    width: 1330px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.container5{
+    background-color: rgb(61, 250, 36);
+    box-sizing: border-box;
+    width: 1330px;
+    padding: 20px;
+    border: 2px solid;
+}
