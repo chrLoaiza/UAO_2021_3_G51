@@ -33,23 +33,6 @@
         
     }
        
-    #menu-principal{
-        /* Ancho */
-        width: 550%;
-        /* Alto temporal */
-        height: 320px;
-        /* Color de fondo */
-        background-color: rgb(255, 255, 255);
-        /* posición */
-        position: absolute;
-        left: 0;
-        top:50%;
-        transform: translateY(300%);
-    }
-    
-   
-    
-    
     /* ------------------------------------ */
     
     /*  */
