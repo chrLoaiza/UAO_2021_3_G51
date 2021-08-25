@@ -1,0 +1,66 @@
+h1{
+    font-style: italic;
+   margin-left: 500px;
+   color: blanchedalmond;
+   
+   }
+#divh1{
+    background-color: black;
+
+}
+a{
+    color: blanchedalmond;
+    margin-left: 400px;
+    font-style: italic;
+    font-size: 20px;
+}
+.inicial{
+   
+ width: 1334px;
+ 
+}
+   
+p{
+    font-size: 20px ;
+}
+
+.sub{
+    font-style: italic;
+    font-size: 30px;
+}
+
+ form{
+     
+    background: url(fondo2.jpeg) no-repeat 100px 0px;
+     padding: 50px;
+     margin: auto;
+     color: cornsilk;
+    
+
+ }
+
+ .inputs{
+     margin-left: 500px;
+     padding: 10px;
+     width: 300px;
+     
+ }
+
+ 
+
+ .formu{
+   
+    margin-left: 500px;
+    font-size: 20px;
+    font-style: italic;
+
+ }
+
+ #play{
+      margin-left: 500px;
+ }
+
+ #t4{
+
+    font-size: 40px;
+ }
