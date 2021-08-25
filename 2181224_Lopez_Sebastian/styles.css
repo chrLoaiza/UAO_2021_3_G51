@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    background-color: rgb(214, 214, 214);
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 90px;
+    padding-left: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_nav{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section_login{
+    text-align: right;
+    margin-right: 25px;
+}
+
+.button_login{
+    display: inline-block;
+    background-color: #4353ff;;
+    color: #FFFFFF;
+    padding: 14px 70px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    opacity: 0.9;
+    border-radius: 23px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.button_login:hover {
+    background-color: #3340cc;;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-bottom-style: solid;
+    align-items: center;
+    height: 87px;
+    border-color: #8a8a8a;
+    border-width: 2px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+article {
+    display: flex;
+    height: 275px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(176, 176, 176);
+    border-bottom-width: 1px;
+    padding-left: 25px;
+    align-items: center;
+}
+
+article:hover{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.section_head {
+    flex: 1;
+}
+
+.section_Article{
+    flex: 1;
+}
+
+.section_Title{
+    height: 120px;
+    padding-top: 29px;
+    border-bottom-style: solid;
+    border-color: #8a8a8a;
+    border-width: 3px;
+}
+
+.text_date{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.article_Title{
+    flex: 2;
+    text-align: left;
+    margin-right: 40px;
+}
+
+.article_sumary{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    text-align: justify;
+}
+
+.article_autor{
+    text-align: right;
+    padding-right: 25px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer {
+    margin: 0px 20px;
+    border-top-style: solid;
+}
