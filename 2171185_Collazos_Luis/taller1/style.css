@@ -1,0 +1,113 @@
+body {
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+
+#hd {
+    width: 100%;
+    background-color: red;
+    padding: 25px 0 25px 0;
+}
+
+#nombreHeader {
+    font-family: 'Josefin Sans', 'sans-serif';
+    text-align:center;
+    color: seashell;
+}
+
+.menu{
+    width: 100%;
+	text-align:center;
+    background-color: silver;
+    padding:18px 0 20px;
+}
+
+.botones{
+	font-family: 'Josefin Sans', 'sans-serif';
+	color:white;
+	padding:12px 25px;
+	text-decoration:none;
+    background-color: black;
+}
+
+#articulo {
+    width: 100%;
+    padding: 18px 0 15px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Josefin Sans', 'sans-serif';
+	font-size:30px;
+	color: black;
+}
+
+p {
+    font-family: 'Marvel', sans-serif;
+    margin-right: 80px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+	font-family: 'Marvel', sans-serif;
+	font-size:20px;
+	font-weight:300;
+	color: #FFF;
+	background: darkorchid;
+	padding: 10px 15px;
+    border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+	display:inline-block;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.aside1 {
+    width: 30%;
+    padding: 15px 20px;
+    margin-left: 15px;
+    float: right;
+    font-family: 'Marvel', sans-serif;
+    background-color: crimson;
+    color: white;
+}
+
+#footer{
+    width: 70%;
+    background-color: black;
+    padding: 31px 0;
+}
+
+#contactoFooter {
+    color: white;
+    font-family: 'Josefin Sans', 'sans-serif';
+    text-align: center;
+}
+
+#redesSociales{
+	width:20%;
+	min-width: 190px;
+	margin:20px auto;
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: space-between;
+}
+
+#redesSociales li{
+	width:42px;
+	margin:0 5px;
+}

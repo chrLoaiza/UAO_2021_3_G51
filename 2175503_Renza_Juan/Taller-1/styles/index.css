@@ -1,0 +1,167 @@
+/*--------------------------------------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/* Header, Main, Footer Styles */
+.root-container {
+    max-width: 1080px;
+    width: 1080px;
+  }
+
+.root-container.main{
+    background-color: rgb(222, 217, 206);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+}
+
+/*----------------------------HEADER-----------------------------------------------*/
+
+header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: rgb(247, 241, 229);
+    margin-bottom: 0px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    margin: 30px;
+    padding: 10px;
+}
+
+.header-nav a:hover{
+    color: rgb(97, 93, 61);
+  }
+
+.nav-button-link{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    color: rgb(28, 20, 15);
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    height: 10rem;
+    }
+
+.logo.invert{
+        filter: invert(100%);
+    }
+/*---------------------------------LATERAL---------------------------------------*/
+
+.lateral{
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    width: 240px;
+    font-family: 'DM Sans';
+    font-weight: bold;
+}
+
+.barra-lateral{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 0;
+}
+
+.lateral-link{
+    color: rgb(255, 255, 255);
+    font-family: 'DM Sans';
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.barra-lateral a:hover{
+    color: rgb(255, 255, 255);
+  }
+
+.lateral-button {
+    background: rgb(28, 20, 15);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.lateral-input {
+    background: rgba(255, 255, 255, 0);
+    border-color: rgb(28, 20, 15);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contenedor-lateral{
+    width: 230px;
+    height: 230px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.contenedor-imagenes-noticias {
+    filter: grayscale(100%);
+    width: 230px;
+    height: 230px;
+    margin-bottom: 10px;
+  }
+
+  /*---------------------------------ARTICLE---------------------------------------*/
+
+  article{
+    display: flex;
+    flex-flow: column;
+    padding-top: 20px;
+    font-family: 'DM Sans';
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    width: 760px;
+}
+
+.contenedor-imagenes-articulos {
+    filter: grayscale(100%);
+    width: 760px;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+
+
+  /*---------------------------------FOOTER---------------------------------------*/
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 150px;
+  background-color: rgb(28, 20, 15);
+  margin-bottom: 0px;}
+
+  .footer-text{
+    padding: 40px;
+    font-family: 'DM Sans';
+    color: rgb(222, 217, 206);
+    text-decoration: none;
+  }

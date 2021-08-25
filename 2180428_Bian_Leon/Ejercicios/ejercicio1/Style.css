@@ -1,0 +1,264 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Averia Serif Libre';
+    /* background: #021321; */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Fondo: #212121;
+    --AzulFondo1: #143e52;
+    --ColorTexto1: #00ABB2;
+    --ColorTexto2: #d6bc01;
+    --ColorTexto3: #653928;
+}
+
+/* Separador */
+.Separador {
+    min-height: 60vh;
+    padding: 0px 60px;
+
+}
+
+/* Header*/
+header {
+    background-color: var(--Fondo);
+    width: 100%;
+    content: '';
+}
+
+.header-full {
+    padding: 10px 40px;
+    width: 900px;
+    height: auto;
+    display: flex;
+}
+
+.logo-header img {
+    width: 15%;
+    object-fit: cover;
+    float: left;
+    margin-right: 90px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.navbar-menu ul {
+    display: flex;
+}
+
+.navbar-menu ul li {
+    list-style: none;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+}
+
+.navbar-menu ul li a {
+    text-decoration: none;
+    color: var(--ColorTexto2);
+    font-weight: 400;
+    text-transform: initial;
+}
+
+.navbar-menu ul li a:hover {
+    width: 100%;
+    border-bottom: 5px solid var(--ColorTexto3);
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    float: right;
+}
+
+.links a {
+    color: var(--ColorTexto2);
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+/* Section */
+.img__section {
+    background-image: url('https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    /* margin-bottom: 50px; */
+}
+
+.img--section {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.img--section h2 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.img--section p {
+    text-transform: initial;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:840px) {
+    .img--section h2 {
+        font-size: 37px;
+    }
+
+    .img__section {
+        height: 47vh;
+    }
+
+}
+/* YO */
+.container-HV{
+    padding: 80px;
+}
+.container-HV p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.container-HV h5{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.container-HV span{
+    color: var(--ColorTexto2);
+}
+.hvFULL{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.hv{
+    padding: 0 40px;
+    margin-left: -40px;
+}
+.hv p{
+    width: 400px;
+    font-size: 18px;
+}
+/* Container card */
+.container--card {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 60px;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.4s ease;
+    /* background: linear-gradient(0deg, rgba(195,74,34,1) 0%, rgba(253,187,45,1) 100%); */
+    background-color: var(--Fondo);
+    color:var(--ColorTexto2) ;
+}
+
+.card .card-img {
+    width: 100%;
+    height: 230px;
+}
+
+.card:nth-child(1) .card-img {
+    background: url('https://www.thoughtco.com/thmb/GZo4uJ5TTWe93FpAAb92mQ4A0As=/4256x2832/filters:no_upscale():max_bytes(150000):strip_icc()/sql-code-on-black-183029104-599b4ac60d327a00119b7053.jpg') no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:nth-child(2) .card-img {
+    background: url('https://previews.123rf.com/images/artemstepanov/artemstepanov1801/artemstepanov180100696/92699624-java-script-fictitious-programming-code-background-java-language-abstract-pattern-computer-program-v.jpg') no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:nth-child(3) .card-img {
+    background: url('https://mindxmaster.s3.amazonaws.com/wp-content/uploads/2017/09/1_python.jpg') no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:nth-child(4) .card-img {
+    background: url('https://ak.picdn.net/shutterstock/videos/17025883/thumb/1.jpg') no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card:nth-child(5) .card-img {
+    background: url('https://i1.wp.com/www.globalme.mx/wp-content/uploads/2018/06/ProduccionMultimedia.png?fit=1418%2C969') no-repeat center center / cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body .card-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.card-body .card-info {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Montserrat';
+}
+
+.card:hover {
+    box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:540px) {
+    .container--card {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 35px;
+        padding: 12px;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: var(--Fondo);
+    color: var(--ColorTexto2);
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+
+.P-footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
