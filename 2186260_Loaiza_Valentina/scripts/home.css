@@ -110,9 +110,26 @@ section img#frente{
     font-size: 3.5em;
     margin-bottom: 1rem;
     color: white;
+    padding: 2rem;
 }
 
 .sec p{
     font-size: 1.2em;
+    color: white;
+    padding: 0.5rem;
+    text-align: justify;
+    display: flex;
+}
+
+.sec img{
+    padding: 0rem 2rem;
+    border-radius: 15%;
+}
+
+footer{
+    background: #512194;
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
     color: white;
 }
