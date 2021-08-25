@@ -1,0 +1,65 @@
+body { 
+    margin: 0;
+    font-family: Roboto;
+  }
+  footer {
+      background-color: black;
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #0148a3;
+    padding: 20px 10px;
+  }
+  
+  .footer {
+      overflow: hidden;
+      background-color: black;
+      padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    margin: 3px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    padding-right: 5%;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+  aside {
+      float: left;
+      margin: 1.5%;
+      width: 20%;
+      padding: 1.5%;
+      border: 1px;
+      border-color: black;
+  }

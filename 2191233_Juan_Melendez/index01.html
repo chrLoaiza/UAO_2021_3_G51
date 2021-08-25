@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <title>Ejercicio Web</title>
+     <!--CSS-->
+     <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <!--Contenido principal-->
+        <main>
+            <!--Cabecera principal-->
+            <header>
+                <!--Logo-->
+                <div>
+                    <img src="dental_group.jpeg"/>
+                </div>
+                <!--Navegador principal-->
+                <nav id="menu-principal">
+                    
+                    <a href="">Inicio</a>
+                    <a href="">Nosotros</a>
+                    <a href="">Novedades</a>
+                    <a href="">Sedes</a>
+                    <a href="">Agendar Cita</a>
+                    <a href="">Contacto</a>
+                    
+                </nav>
+                <!--Fin navegador principal-->
+
+                <!--Imagen de fondo-->
+                     <picture id="imagen-principal">
+
+                     </picture>
+                <!--Fin imagen de fondo-->  
+
+                <!--Fin logo-->
+            </header>
+            <!--Fin cabecera principal-->
+
+            <!-- Sección de clases-->
+            <section id="section-clases">
+                <div class="container">
+                    <h2>Tratamientos Dentales</h2>
+                    <div class="row">
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Blanqueamiento</h3>
+                            <h4>$280.000</h4>
+                            <a href="">Solicita</a>
+                        </div>
+                        <!--fin clase-->
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Rehabilitacion Oral</h3>
+                            <h4>$620.000 Hasta 1.900.000</h4>
+                            <a href="">solicita</a>
+                        </div>
+                        <!--fin clase-->
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Ortodoncia</h3>
+                            <h4>$200.000</h4>
+                            <a href="">solicite</a>
+                        </div>
+                        <!--fin clase-->
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Endodoncia</h3>
+                            <h4>$280.000 Hasta 480.000</h4>
+                            <a href="">solicite</a>
+                        </div>
+                        <!--fin clase-->
+                    </div>
+                    <div class="row">
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Restauracion en Resina</h3>
+                            <h4>$60.0000 Hasta 140.000</h4>
+                            <a href="">solicite</a>
+                        </div>
+                        <!--fin clase-->
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Fase Higienica</h3>
+                            <h4>$120.000</h4>
+                            <a href="">solicite</a>
+                        </div>
+                        <!--fin clase-->
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Periodoncia</h3>
+                            <h4>$300.000 Hasta 600.000</h4>
+                            <a href="">solicite</a>
+                        </div>
+                        <!--fin clase-->
+                        <!-- Clase -->
+                        <div class="clase-index">
+                            <figure></figure>
+                            <h3>Implantologia</h3>
+                            <h4>$3.500.000</h4>
+                            <a href="">solicite</a>
+                        </div>
+                        <!--fin clase-->
+                    </div>
+                </div>
+            </section>
+            <!-- Fin de sección de clases-->
+
+            <!-- Seccion Formulario -->
+            <section id="formulario-index">
+                <h2>Agendar Cita</h2>
+                <form name="inscripcion" id="inscripcion" method="POST" action="">
+                    <div>
+                        <label for="nombre">Nombre <em>*</em></label>
+                        <input type="text" name="nombre" class="field" required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo <em>*</em></label>
+                        <input type="email" name="correo" class="field" required>
+                    </div>
+                    <div>
+                        <label for="phone">Telefono <em>*</em></label>
+                        <input type="tel" name="phone" class="field" required>
+                    </div>
+                    <div>
+                        <label for="tipoServicio">Tipo de servicio <em>*</em></label>
+                        <select name="tipoServicio" class="field">
+                            <option value="0">Blanqueamiento</option>
+                            <option value="1">xxxxx</option>
+                            <option value="2">xxxxxx</option>
+                            <option value="3">xxxxx</option>
+                            <option value="0">xxxxxxx</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="datos" class="" required checked>
+                        <label for="datos" id="label-datos">Acepto la politica de tratamiento de datos</label>
+                    </div>
+                    <div>
+                        <!--Opcion 1-->
+                        <input type="submit" name="boton" class="boton" value="inscribete">
+
+                        <!--Opcion 2-->
+                       <!-- <button type="submit" class="">Inscribete</button> -->
+                    </div>
+                    
+                </form>
+            </section>
+            <!-- Fin sección formulario-->
+        </main>
+        <!--Fin principal-->
+    </body>
+</html>
