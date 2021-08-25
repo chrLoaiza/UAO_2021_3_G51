@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EJERCICIO RESPONSIVE</title>
+
+		<!-- GOOGLE FONT -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+		<!-- CSS -->
+		<link href="style.css" type="text/css" rel="stylesheet">
+
+		<!-- ICONOS GOOGLE -->	
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			  rel="stylesheet">
+
+		<!-- JQUERY -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+		<script>
+
+			$(document).ready(function(){
+
+				// Botón de top
+				var body = $("html, body");
+				$("#btTop").click(function(){
+					body.animate({scrollTop:0}, 500);
+				});
+			});
+
+
+		</script>	  
+
+
+	</head>
+	<body>
+
+
+		<!-- header --> 
+		<header id="header-index">
+			<picture>
+				<source srcset="mariofondo4.png" media="(max-width: 630px)">
+				<source srcset="mariofondo2.jpg" media="(max-width: 900px)">
+				<img id="fondomario" src="mariofondo3.jpg" alt="fondo de mario bros ">
+			
+		    </picture>
+
+
+
+			<!-- logo en header -->
+			<div id="logo-header">
+				<img id="LogoNintendo" src="Nintendo.png" alt="Nintendo logo">
+			</div>
+
+
+			<!-- menu prinipal -->
+			<nav id="menu-header">
+				<a href="btPrincipal">Nintendo Switch</a>
+				<a href="btPrincipal">Juegos</a>
+				<a href="btPrincipal">Amiibo</a>
+				<a href="btPrincipal">Servicio al cliente</a>
+				<a href="btPrincipal">My nintendo</a>
+			</nav>
+
+
+			<!-- back de header -->
+			<div id="back-header">
+			</div>
+
+
+		</header>
+
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+
+
+
+
+
+		<!-- section principal -->
+
+		<section id="section-index">
+
+			<h2>Mario Bros 35th Anniversary</h2>
+			<a id="video-a">
+			<video id="video" controls preload >
+				<source src="intromariobros2.mp4" type="video/mp4">
+				<img src="mariojuego.jpg"  alt="capture" id="image-capture">
+			</video> </a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu mattis augue. Proin faucibus ac mi eget rhoncus. Duis fermentum ornare elit, ac condimentum justo lobortis et. Morbi ornare nunc ex, a venenatis lorem hendrerit ac. Donec vulputate arcu non mauris consequat, et volutpat sem rhoncus. Maecenas libero eros, dignissim nec nulla in, interdum tincidunt urna. Cras eleifend, nisi vel venenatis tempus, velit ipsum sagittis sem, at congue mi lacus ut ex. Suspendisse vehicula arcu ut mollis egestas. Aliquam ut pulvinar dolor, a accumsan velit.</p>
+			<a href="" class="boton">Amplíar Info</a>
+
+		</section>
+
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+
+
+
+		<!-- Entradas principales -->
+		<div id="entradas-index">
+
+			<article class="entrada">
+				<figure>
+					<a href="" class="boton plus-entrada">+</a>
+					<img class="Switchimagen" src="NintendoSwitch.jpg" alt="Imagen de Ninendo Switch">
+				</figure>
+				<h5>Explora Nintendo Switch</h5>
+			</article>
+
+			<article class="entrada">
+				<figure>
+					<a href="" class="boton plus-entrada">+</a>
+					<img class="Switchimagen" src="Mario3dStars.jpg" alt="Imagen de juegos nuevos">
+				</figure>
+				<h5>Ya disponible</h5>
+
+			</article>
+
+			<article class="entrada">
+				<figure>
+					<a href="" class="boton plus-entrada">+</a>
+					<img class="Switchimagen" src="tiendanintendo.jpg" alt="Tienda de nintendo">
+				</figure>
+				<h5>Nintendo e-shop</h5>
+			</article>
+
+		</div>
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+
+
+
+		<!-- noticias-index -->
+		<div id="wrap-news">
+
+			<article class="news1">
+				<figure class="wrap-img-news1">
+					<img id="ExpansionPokemon" src="800x450_WN_PSPS-CrownTundra.jpg" alt="Pokemon Expansion">
+				</figure>
+				<h5>Pokémon anuncia la fecha de lanzamiento de la Expansion Las Nieves de la Corona</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<a href="" class="boton">+</a>
+			</article>
+
+			<article class="news">
+				<figure class="wrap-img-news">
+					<img id="Ofertas" src="ofertas.jpg" alt="Ofertas nintendo">
+				</figure>
+				<h6>Ofertas especiales</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				<a href="" class="boton1">+</a>
+			</article>
+
+			<article class="news">
+				<figure class="wrap-img-news">
+					<img id="TorneoARMS" src="torneo.jpg" alt="Torneo de ARMS">
+				</figure>
+				<h6>Registrate en el torneo abierto de ARMS</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+				<a href="" class="boton1">+</a>
+			</article>
+
+			<article class="news">
+				<figure class="wrap-img-news">
+					<img id="SmashBros" src="smash.jpg" alt="Smash bros noticia">
+				</figure>
+				<h6>!Atencion jugadores de Super Smash Bros!</h6>
+				<p>Lorem ipsum dolor sit amet. </p>
+				<a href="" class="boton1">+</a>
+			</article>
+
+			<article class="news">
+				<figure class="wrap-img-news">
+					<img id="Actualizaciones" src="actualizacion.jpg" alt="Actualizaciones de juegos">
+				</figure>
+				<h6>Nuevas actualizaciones</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
+				<a href="" class="boton1">+</a>
+			</article>
+
+
+		</div>
+
+
+
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+
+
+		<!-- Footer -->
+
+		<footer id="footer-index">
+
+			<!-- logo en footer -->
+			<div id="logo-footer">
+				<img id="LogoNin"  src="Nintendo.png" alt="Nintendo logo">
+				<img id="LogoESRB" src="ESRBlogofin.png" alt="ESRB logo">
+				
+			</div>
+
+			<!-- info en footer -->
+			<ul id="info-footer">
+				<li>
+					<span class="material-icons">
+						room
+					</span>
+					<p>© 2020 Nintendo. Los juegos son propiedad de sus respectivos dueños. La sede central de Nintendo of America Inc. se encuentra en Redmond, Washington.</p>
+				</li>
+				
+			</ul>
+
+			<!-- Bt go TOP -->
+			<div id="btTop">
+				<span class="material-icons">
+					keyboard_arrow_up
+				</span>
+			</div>
+
+		</footer>
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+		<!-- ======================================= -->
+
+
+	</body>
+</html>
