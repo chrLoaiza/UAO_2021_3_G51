@@ -10,7 +10,7 @@ body {
   max-width: 728px;
   width: 728px;
 }
-
+a:hover
 /* Header Tag Styles */
 header {
   display: flex;
@@ -74,18 +74,56 @@ main {
   height: 150px;
 }
 
-.borders {
+.main_img {
   width: 600px;
   height: 500px;
+}
+
+.borders {
+  
   border-radius: 10px;
   border: 1px solid #333;
 }
 
 .big-container {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .big-container a {
   width: 600px;
   height: 500px;
 }
+
+/* .header-elements {
+  display: flex;
+  flex-flow: row;
+  background: aquamarine;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 150px;
+}
+
+
+/* -> width <= 620px*/
+/* @media (max-width: 620px) {
+  .main_img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .ad-container img {
+    width: 100px;
+    height: 100px;
+  }
+} */
+
+/* -> width => 728px*/
+/*@media (min-width: 728px) {
+
+} */
