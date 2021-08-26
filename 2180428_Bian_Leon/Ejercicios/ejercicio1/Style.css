@@ -1,12 +1,13 @@
 /* FONTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&display=swap');
 
+/* ----------------------------------------------------------------------- */
+/*  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Averia Serif Libre';
-    /* background: #021321; */
 }
 
 html,
@@ -23,66 +24,72 @@ body {
     --ColorTexto3: #653928;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Averia Serif Libre';
+}
+
 /* Separador */
 .Separador {
     min-height: 60vh;
     padding: 0px 60px;
-
 }
 
+/* ----------------------------------------------------------------------- */
 /* Header*/
 header {
     background-color: var(--Fondo);
-    width: 100%;
-    content: '';
 }
 
 .header-full {
-    padding: 10px 40px;
-    width: 900px;
-    height: auto;
     display: flex;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .logo-header img {
     width: 15%;
     object-fit: cover;
-    float: left;
-    margin-right: 90px;
-}
-
-.menu {
-    margin-top: 20px;
+    margin-right: 10px;
+    object-fit: cover;
 }
 
 .navbar-menu ul {
+    padding: 25px 35px;
     display: flex;
+    flex-direction: row;
 }
 
 .navbar-menu ul li {
+    margin-right: 40px;
+    text-align: center;
+    text-decoration: none;
     list-style: none;
-    margin-left: 20px;
-    float: left;
-    position: relative;
 }
 
 .navbar-menu ul li a {
-    text-decoration: none;
     color: var(--ColorTexto2);
+    text-decoration: none;
     font-weight: 400;
     text-transform: initial;
+    transition: all;
 }
 
 .navbar-menu ul li a:hover {
     width: 100%;
-    border-bottom: 5px solid var(--ColorTexto3);
+    border-bottom: 4px solid var(--ColorTexto3);
+    margin-top: 25px;
+    transition: 1s;
 }
 
 .links {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    float: right;
+    padding: 25px 1px;
 }
 
 .links a {
@@ -91,6 +98,41 @@ header {
     padding: 0px 10px;
 }
 
+/* X-Small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .links {
+        padding: 25px 1px;
+        display: flex;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 3600px){
+    .links {
+        padding: 25px 1px;
+        /* display: block; */
+    }
+    .links a {
+        color: var(--ColorTexto2);
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+}
+
+/* ----------------------------------------------------------------------- */
 /* Section */
 .img__section {
     background-image: url('https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
@@ -101,7 +143,6 @@ header {
     position: relative;
     width: 100%;
     height: 70vh;
-    /* margin-bottom: 50px; */
 }
 
 .img--section {
@@ -135,35 +176,44 @@ header {
     .img__section {
         height: 47vh;
     }
-
 }
+
+/* ----------------------------------------------------------------------- */
 /* YO */
-.container-HV{
+.container-HV {
     padding: 80px;
 }
-.container-HV p{
+
+.container-HV p {
     font-size: 18px;
     margin-bottom: 40px;
 }
-.container-HV h5{
+
+.container-HV h5 {
     font-size: 25px;
     margin-bottom: 50px;
 }
-.container-HV span{
+
+.container-HV span {
     color: var(--ColorTexto2);
 }
-.hvFULL{
+
+.hvFULL {
     display: flex;
     flex-wrap: nowrap;
 }
-.hv{
+
+.hv {
     padding: 0 40px;
     margin-left: -40px;
 }
-.hv p{
+
+.hv p {
     width: 400px;
     font-size: 18px;
 }
+
+/* ----------------------------------------------------------------------- */
 /* Container card */
 .container--card {
     max-width: 1300px;
@@ -182,7 +232,7 @@ header {
     transition: 0.4s ease;
     /* background: linear-gradient(0deg, rgba(195,74,34,1) 0%, rgba(253,187,45,1) 100%); */
     background-color: var(--Fondo);
-    color:var(--ColorTexto2) ;
+    color: var(--ColorTexto2);
 }
 
 .card .card-img {
@@ -247,6 +297,7 @@ header {
     }
 }
 
+/* ----------------------------------------------------------------------- */
 /* Footer */
 footer {
     background-color: var(--Fondo);

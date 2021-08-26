@@ -1,0 +1,97 @@
+body{
+  background-color: #9ec3ff;
+}
+
+header {
+    
+    color: rgb(8, 0, 54);
+    
+  }
+
+.container1{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+   
+  .busqueda{
+    margin: 20px auto;
+    width: 300px;
+    height: 50px;
+  }
+ 
+.dise {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: rgb(137, 181, 250);
+}
+
+.dise:link, a:visited, a:focus {
+  background: rgb(8, 82, 202);
+}
+
+#seccion1{
+  
+  padding: 10px;
+  border: 1px;
+  text-align: center;
+}
+
+
+
+.container4 p{
+  color: blue;
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 10px;
+  padding: 5px;
+  
+  }
+
+  #seccion2{
+   
+    padding: 10px;
+    border: 3;
+    text-align: center;
+  }
+
+
+
+    .container5 li {
+      color: rgb(5, 0, 68);
+      font-family: sans-serif;
+      text-align: left;
+      margin: auto;
+      padding: 5px;
+      }
+
+      .container6{
+        
+        margin: auto;
+        height: 300px;
+        display: flex;
+        align-items: start;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+      }
+
+      .container6 p{
+        color: blue;
+        font-family: sans-serif;
+        text-align: justify;
+        margin: 10px;
+        padding: 5px;
+        
+        }
+
+      
+
+
+
