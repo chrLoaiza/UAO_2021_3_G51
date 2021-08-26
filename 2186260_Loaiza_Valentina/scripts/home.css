@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -6,7 +9,8 @@
 
 body{
     min-height: 100vh;
-    background: linear-gradient(#BACFEA, #FCEAE8);
+    overflow-x: hidden;
+    background: linear-gradient(#5A24A6, #EE6D72);
 }
 
 header{
@@ -21,12 +25,12 @@ header{
 }
 
 header .logo{
-    color: cornflowerblue;
+    color: white;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
 }
 
 header ul{
@@ -42,15 +46,16 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    color: cornflowerblue;
+    color: white;
     font-size: 1.3em;
     border-radius: 20px;
     padding: 6px 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header ul li a:hover{
-    background: cornflowerblue;
-    color: #BACFEA;
+    background: white;
+    color: #5A24A6;
 }
 
 section{
@@ -62,6 +67,15 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #5A24A6, transparent);
+    z-index: 1000;
 }
 section img{
     position:absolute;
@@ -77,9 +91,45 @@ section img#frente{
 
 #titulo{
     position: absolute;
+    right: -510px;
     color: white;
     white-space: nowrap;
     font-size: 8rem;
     z-index: 9;
-    transform: translateY(-100px);
+    transform: translateY(-300px);
+    font-family: 'Pacifico', cursive;
+}
+
+.sec{
+    position: relative;
+    padding: 2rem;
+    background: #5A24A6;
+}
+
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom: 1rem;
+    color: white;
+    padding: 2rem;
+}
+
+.sec p{
+    font-size: 1.2em;
+    color: white;
+    padding: 0.5rem;
+    text-align: justify;
+    display: flex;
+}
+
+.sec img{
+    padding: 0rem 2rem;
+    border-radius: 15%;
+}
+
+footer{
+    background: #512194;
+    width: 100%;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: white;
 }
