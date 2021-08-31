@@ -1,0 +1,616 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*
+
+0 - UNIVERSALES
+===========================
+
+1 - TEXTOS
+===========================
+
+2- HEADER  (MENU)
+===========================
+
+3- SECTION EN INDEX
+
+===========================
+
+4- ENTRADAS INDEX
+
+===========================
+
+5- NOTICIAS
+
+===========================
+
+6- FOOTER
+
+
+*/
+
+
+/* 0 - UNIVERSALES */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* https://developer.mozilla.org/es/docs/Web/CSS/var */
+:root {
+	--uno: #66d4ff;
+	--dos:#2aa2d1;
+	--tres:#054255;
+	--cuatro:#f54141;
+	--cinco:#c50104;
+}
+
+body{
+	background: var(--uno);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	color: white;
+	overflow-x: hidden;
+}
+
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+
+
+/* 1 - TEXTOS */
+
+p{
+	font-weight: 400;
+	font-size: 0.8em;
+}
+
+h1{
+	font-weight: 400;
+	font-size: 3.4em;
+}
+
+h2{
+	font-weight: 500;
+	font-size: 3em;
+}
+
+h3{
+	font-weight: 500;
+	font-size: 2.6em;
+}
+h4{
+	font-weight: 500;
+	font-size: 2.2em;
+}
+h5{
+	font-weight: 500;
+	font-size: 1.8em;
+	margin-top: 20px;
+}
+h6{
+	font-weight: 500;
+	font-size: 1.4em;
+}
+
+a{
+
+}
+
+.boton{
+	display: inline-block;
+	padding: 8px 14px;
+	text-decoration: none;
+	border:1px solid white;
+	border-radius: 2px;
+	margin: 10px auto;
+	color: white;
+}
+.boton:hover{
+	background: var(--dos);
+}
+
+.boton1{
+	display: inline-block;
+	padding: 8px 14px;
+	text-decoration: none;
+	border:1px solid white;
+	border-radius: 2px;
+	margin: 10px auto;
+	color: white;
+}
+.boton1:hover{
+	background: var(--cuatro);}
+
+
+
+
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+
+
+
+/* 2 - HEADER (MENU) */
+#header-index{
+	width: 100vw;
+	height: 80vh;
+	position: relative;
+	overflow: hidden;
+	/* https://bennettfeely.com/clippy/ */
+	clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 95%, 0 0);
+}
+#fondomario{
+	width: 100%;
+	height: 100%;
+	
+}
+#fondomariopequeño{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#fondomariomitad{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+
+#logo-header{
+	position: absolute;
+	z-index: 2;
+	width: 420px;
+	height: 120px;
+	background: var(--tres);
+	top:20vh;
+	left:50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	
+	
+}
+
+#LogoNintendo{
+	width:100%;
+	max-width: auto;
+	margin:0;
+	border-radius: 10px;
+}
+
+#menu-header{
+	position: absolute;
+	z-index: 2;
+	top: 50vh;
+	background: none;
+	width: 100%;
+	padding: 3px 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+#menu-header a{
+	display: block;
+	width: 100%;
+	height: auto;
+	background: var(--cinco);
+	margin: 0;
+	text-decoration: none;
+	font-family:'Josefin Sans', 'sans-serif' ;
+	font-weight: 300px;
+	font-size: 1.6rem;
+	color:#FFF;
+	padding:5px 15px;
+	border-radius:5px 5px 0 0 ;
+	transition: all linear 0.5s;
+	text-align: center;
+}
+
+#menu-header >a:hover{
+	background: #054255;
+}
+
+
+#back-header{
+	position: absolute;
+	z-index: 1;
+	width: 100vw;
+	height: 100vh;
+	background:var(--dos);
+}
+
+
+/*  3- SECTION EN INDEX */
+
+#section-index{	
+	padding: 100px 0;
+	text-align: center;
+	color: white;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+#video{
+	justify-content: center;
+	margin: 0%;
+	padding: 0%;
+	max-width: 720px;
+
+	
+	
+}
+
+#section-index p{
+	width: 600px;
+	margin: 30px auto;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+
+
+
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+
+
+
+/* 4- ENTRADAS INDEX */
+#entradas-index {
+	width: 100vw;
+	background: var(--cinco);
+	/* https://bennettfeely.com/clippy/ */
+	clip-path: polygon(50% 0%, 100% 9%, 100% 92%, 50% 100%, 0 92%, 0 9%);
+	padding: 100px 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.entrada{
+	display: flex;
+	flex-flow: column;
+	margin: 50px 30px;
+	text-align: center;
+	text-decoration: none;	
+}
+.entrada figure{
+	width: 500px;
+	height: 300px;
+	border-radius: 50%;
+	background: var(--uno);
+	margin: 0 0 10px 0;
+	position: relative;
+	display: block;
+	
+}
+.Switchimagen{
+	width: 500px;
+	height: 300px;
+	position: relative;
+	border-radius: 50%;
+	display: block;
+	
+	
+}
+
+
+.plus-entrada{
+	position: absolute;
+	font-size: 2em;
+	z-index: 1;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.1;
+	transition: all linear 0.3s;
+	background: var(--dos);
+}
+
+.entrada figure:hover .plus-entrada{
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+}
+
+.entrada h5{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+
+
+
+/* 5- NOTICIAS */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+#wrap-news{
+	width: 80vw;
+	margin: 100px auto;
+	background: var(--tres);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows:  250px 150px 300px 150px;
+}
+
+.news1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	background: var(--cinco);
+	padding: 20px;
+}
+
+.wrap-img-news{
+	width: 100%;
+	height: 50%;
+	background: var(--uno);
+	margin-bottom: 10px;
+}
+
+.wrap-img-news1{
+	width: 100%;
+	height: 60%;
+	background: var(--uno);
+	margin-bottom: 10px;
+	
+}
+.news{
+	padding: 20px;
+	grid-column-start: auto;
+	grid-column-end: auto;
+	grid-row-start: auto;
+	grid-row-end: span 2;
+	background: var(--dos);
+}
+#ExpansionPokemon{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#Ofertas{
+	width: 100%;
+	height: 100%;
+}
+
+#TorneoARMS{
+	width: 100%;
+	height: 100%;
+}
+
+#SmashBros{
+	width: 100%;
+	height: 100%;
+}
+
+#Actualizaciones{
+	width: 100%;
+	height: 100%;
+}
+
+
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+
+
+
+/* 6 - FOOTER */
+
+#footer-index {
+	background: var(--cinco);
+	clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0);
+	padding: 85px 0;
+	position: relative;
+}
+
+
+#logo-footer{
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	background: none;
+	margin: 60px auto 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+#logo-footer>img{
+	margin: 20px;
+	
+	
+}
+#LogoNin{
+	width:204.8px;
+	height: 68.2px;
+	border-radius: 10%;
+	transform: translateY(40%);
+	
+}
+#LogoESRB{
+	width: 100px;
+}
+
+
+#info-footer{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 1.4em;
+}
+
+#info-footer li{
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#btTop{
+	background: var(--cuatro);
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+#btTop span{
+	font-size: 2em !important;
+}
+#btTop:hover{
+	background: var(--uno);
+}
+
+
+
+
+
+@media screen and (max-width: 1340px){
+	#entradas-index{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	flex-flow: wrap;
+		
+	}	
+}
+@media screen and (max-width: 700px){
+	#video{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 900px){
+	#wrap-news{
+		width: 80vw;
+		margin: 100px auto;
+		background: var(--tres);
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows:  150px 150px 200px 150px;
+		font-size: 10;
+	}
+
+	.wrap-img-news{
+		width: 100%;
+		height: 35%;
+		background: var(--uno);
+		margin-bottom: 10px;
+	}
+	
+	.wrap-img-news1{
+		width: 100%;
+		height: 40%;
+		background: var(--uno);
+		margin-bottom: 10px;
+		
+	}
+
+	h5{
+		font-weight: 500;
+		font-size: 1.4em;
+		margin-top: 20px;
+	}
+	h6{
+		font-weight: 500;
+		font-size: 1em;
+	}
+	h2{
+		font-weight: 500;
+		font-size: 2em;
+	}
+}
+
+
+@media screen and (max-width: 630px){
+	#fondomario{
+		width: 400px;
+		height: auto;
+		
+	}
+	#logo-header{
+		position: absolute;
+		z-index: 2;
+		width: 210px;
+		height: 60px;
+		background: var(--tres);
+		top:1vh;
+		left:95%;
+		transform: translateX(-100%);
+		border-radius: 10px;
+		
+		
+	}
+	
+	#section-index p{
+		width: 400px;
+		margin:10px, auto;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+
+	#menu-header{
+		position: absolute;
+		z-index: 2;
+		top: 50vh;
+		background: none;
+		width: 100vw;
+		padding: 0px 0;
+		display: flex;
+		flex-flow: column;
+		justify-content: left;
+		margin-top: 20px;
+		
+		
+		
+	}
+	
+	.btPrincipal{
+		
+		justify-content: center;
+		text-align: center;
+		
+	}
+
+	#wrap-news{
+		width: 80vw;
+		margin: 100px auto;
+		background: var(--tres);
+		display: flex;
+		flex-flow: column;}	
+
+		#header-index{
+			width: 100vw;
+			height: 80vh;
+			position: relative;
+			overflow: hidden;
+			/* https://bennettfeely.com/clippy/ */
+			clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+		
+}
+/* ============================================================================================================ */
+/* ============================================================================================================ */
+/* ============================================================================================================ */
