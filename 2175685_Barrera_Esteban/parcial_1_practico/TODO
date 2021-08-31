@@ -12,5 +12,4 @@ Parcial:
     git push
   ☐ Enviar mis cambios a la rama
     git add -A
-    git commit -m 'Parcial CODIGO_APELLIDO_NOMBRE'
     git push
