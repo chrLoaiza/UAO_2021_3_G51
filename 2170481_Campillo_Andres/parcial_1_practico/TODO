@@ -4,8 +4,11 @@ Parcial:
     git fetch --all
     git switch CODIGO_APELLIDO_NOMBRE
   ☐ Realizar Parcial
-  ☐ Actualizar con main 
-    git merge origin main
+  ☐ Actualizar con main
+    git switch main
+    git pull
+    git switch - 
+    git merge main
     git push
   ☐ Enviar mis cambios a la rama
     git add -A
