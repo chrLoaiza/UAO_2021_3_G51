@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+header .logo{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: 'Pacifico', cursive;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 2em;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 20px;
+    padding: 6px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header ul li a:hover{
+    background: white;
+    color: #5A24A6;
+}
+
+body{
+    min-height: 120vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: linear-gradient(#5A24A6, #EE6D72);
+}
+
+section div#frente{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: inline;
+    z-index: 9;
+    top:150px
+}
+
+
+div img#dragon{
+    mix-blend-mode: multiply;
+    margin-top: 1rem;
+}
+
+section {
+    padding: 70px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias{
+    display: flex;
+    width: 550px;
+}
+
+.noticia{
+    padding: 0.5rem;
+    text-align: justify;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.noticia{
+    font-size: 14px;
+    color: #591902;
+    opacity: 0.8;
+}
+
+#titulo{
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Rye', cursive;
+    color: #591902;
+    opacity: 0.6;
+}
+
+#papel, #frente{
+    position: absolute;
+}
+
+#papel{
+    transform: translateX(-100px);
+}
+
+footer{
+    width: 100%;
+    margin-top: 20rem;
+    padding: 3rem;
+    text-align: center;
+    color: #5A24A6;
+
+}
+
+
+
+
+
+
+
