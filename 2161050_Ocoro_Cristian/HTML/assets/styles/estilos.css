@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+menu {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background: black;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(250, 208, 196) 0%, rgb(255, 209, 255) 100%)url(/ima1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+.spread {
+    transform: translate(0);
+}
+
+.titulo {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: 300;
+    color: cornflowerblue;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contenerdor-articulo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenerdor-articulo img {
+    width: 45%;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.n-service {
+    margin-bottom: 7px;
+    color: darkcyan;
+}
+
+.galeria {
+    background: white;
+}
+
+.contenedor-galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img-galeria {
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.clasificacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-clasificacion {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.n-clasificacion {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
