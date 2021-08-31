@@ -1,0 +1,86 @@
+h1 {
+  font-style: italic;
+  margin-left: 550px;
+  color: blanchedalmond;
+}
+#divh1 {
+  background-color: chocolate;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  max-width: 90%;
+  margin: auto;
+}
+#este {
+  width: 0%;
+  height: 0%;
+}
+a {
+  color: blanchedalmond;
+  margin-left: 400px;
+  font-style: italic;
+  font-size: 20px;
+}
+.parrafo {
+  text-align: justify;
+}
+.inicial {
+  width: 100%;
+}
+p {
+  font-size: 20px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  color: chocolate;
+  font-style: italic;
+  font-size: 35px;
+}
+form {
+  background: no-repeat center/100% url(fondo2.jpeg);
+  padding: 50px;
+  margin: auto;
+  color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	text-align: center;
+}
+
+.inputs {
+  padding: 10px;
+  width: 300px;
+}
+
+.formu {
+  width: 400px;
+  font-size: 20px;
+  font-style: italic;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.contact-title {
+	width: 500px;
+}
+
+.send-button {
+	width: 200px;
+	border-radius: 5px;
+	height: 30px;
+}
+
+#t4 {
+  font-size: 40px;
+}
