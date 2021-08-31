@@ -1,7 +1,19 @@
-GIT:
-  ☐ Upload file
-  ☐ Upload screenchot
-
-HTML/CSS:
-  ☐ Upload HTML
-  ☐ Upload CSS
+Parcial:
+  ☐ Pasarme a mi rama que ya está creada en GITHUB 
+    git fetch origin --prune
+    git fetch --all
+    git switch CODIGO_APELLIDO_NOMBRE
+  ☐ Realizar Parcial
+  ☐ Actualizar con main 
+    git merge origin main
+    git push
+  ☐ Enviar mis cambios a la rama
+    git add -A
+    git commit -m 'Parcial CODIGO_APELLIDO_NOMBRE'
+    git push
+  ☐ Create Pull Request
+    ir a https://github.com/chrLoaiza/UAO_2021_3_G51
+    selecrionar la rama en la que se está trabajando
+    hacer click en boton contribute
+    crear Pull Request
+    EL TIULO DEBE SER Parcial_1 CODIGO_APELLIDO_NOMBRE
