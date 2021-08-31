@@ -1,0 +1,13 @@
+My first branch
+
+trying to make my first branch
+
+this is the first change I make
+
+<<<<<<< Updated upstream
+this is the second change I make
+
+☻ ☻ ☻ ☻ ☻ ☻ ☻
+=======
+this is the second change I make
+>>>>>>> Stashed changes

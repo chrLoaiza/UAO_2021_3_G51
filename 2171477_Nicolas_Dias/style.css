@@ -1,0 +1,75 @@
+h1{
+    font-style: italic;
+   margin-left: 550px;
+   color: blanchedalmond;
+   
+   }
+#divh1{
+    background-color:chocolate;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+#este{
+    width: 0%;
+    height: 0%;
+}
+a{
+    color: blanchedalmond;
+    margin-left: 400px;
+    font-style: italic;
+    font-size: 20px;
+}
+.parrafo{
+    text-align: justify;
+}
+.inicial{
+  width: 100%;
+ }
+  #h8{
+      font-weight: bolder;
+    font-style: italic;
+  }
+   
+p{
+    font-size: 20px ;
+}
+
+.sub{
+    color: chocolate;
+    font-style: italic;
+    font-size: 35px;
+}
+ form{
+     background: no-repeat center/100% url(fondo2.jpeg);
+     width: 100%;
+     padding: 50px;
+     margin: auto;
+     color: cornsilk;
+     }
+
+ .inputs{
+     margin-left: 500px;
+     padding: 10px;
+     width: 300px;
+     
+ }
+
+ 
+
+ .formu{
+   
+    margin-left: 500px;
+    font-size: 20px;
+    font-style: italic;
+
+ }
+
+  #t4{
+
+    font-size: 40px;
+ }
