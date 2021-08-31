@@ -1,0 +1,14 @@
+Parcial:
+  ☐ Pasarme a mi rama que ya está creada en GITHUB 
+    git fetch origin --prune
+    git fetch --all
+    git switch CODIGO_APELLIDO_NOMBRE
+  ☐ Realizar Parcial
+  ☐ Actualizar con main 
+    git merge origin main
+    git push
+  ☐ Enviar mis cambios a la rama
+    git add -A
+    git commit -m 'Parcial CODIGO_APELLIDO_NOMBRE'
+    git push
+  
