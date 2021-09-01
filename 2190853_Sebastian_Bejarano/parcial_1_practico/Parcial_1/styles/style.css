@@ -19,6 +19,7 @@ body {
   background: linear-gradient(145deg, #bbc9ff 0%, #9ea9e6 100%);
   box-shadow: 5px 5px 15px #8791c4, -5px -5px 15px #d7e7ff;
   border-radius: 20px;
+  display: inline;
   min-width: 0;
   word-wrap: break-word;
   padding: 3rem;
