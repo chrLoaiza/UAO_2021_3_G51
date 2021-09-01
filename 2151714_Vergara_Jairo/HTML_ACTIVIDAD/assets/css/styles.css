@@ -4,6 +4,12 @@ body {
   overflow-x: hidden;
 }
 
+/*chrLoaiza -> Use flex to center*/
+main {
+  display: flex;
+  justify-content: center;
+}
+
 #hd {
   width: 100%;
   background-color: rgb(0, 0, 0);
@@ -33,11 +39,15 @@ body {
   background-color: black;
 }
 
+/*chrLoaiza -> Use flex to center*/
 #articulo {
-  width: 70%;
   padding: 18px 0 15px;
   background-color: rgb(180, 180, 180);
   font-family: "Marvel", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
 }
 
 .titulo {
