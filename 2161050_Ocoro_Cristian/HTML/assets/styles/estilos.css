@@ -9,6 +9,14 @@ body {
     font-size: 16px;
 }
 
+/*Add max width for body and image*/
+body,
+#banner_header{
+    max-width: 1250px;
+    margin: auto;
+}
+
+
 .contenedor {
     width: 90%;
     max-width: 1200px;
