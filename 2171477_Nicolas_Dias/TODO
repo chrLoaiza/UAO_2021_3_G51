@@ -5,7 +5,7 @@ GIT:
 HTML/CSS:
   ✔ Upload HTML @done(21-08-30 23:40)
   ✔ Upload CSS @done(21-08-30 23:40)
-
+  
 Docente correcciones:
-  ✔ Update CSS to center content @done(21-08-31 14:17)
-  ✔ Change Directories to organize files @done(21-08-31 14:17)
+  ✔ change tah titles (h2, h3 , ..) with label @done(21-08-31 14:17)
+  ✔ Add estyles to use flex @done(21-08-31 14:17)
