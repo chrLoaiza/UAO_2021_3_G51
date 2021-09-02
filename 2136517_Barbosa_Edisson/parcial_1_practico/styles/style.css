@@ -56,3 +56,64 @@ body {
   
   
 }
+
+.profession {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+.name {
+  font-size: 21px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  line-height: 26px;
+  box-sizing: border-box;
+}
+
+.description {
+  margin-top: 0;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.social-media {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.nav-item {
+  padding: 8px;
+}
+
+.nav-link {
+  background: linear-gradient(145deg, #ffffff 0%, #eaebee 100%);
+  box-shadow: 4px 4px 15px #8791c4;
+  color: #202020;
+  transition: transform 0.3s ease-in-out;
+  padding: 5px 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  height: 24px;
+  width: 24px;
+  align-items: center;
+  }
+
+.social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  color: #202020;
+}
