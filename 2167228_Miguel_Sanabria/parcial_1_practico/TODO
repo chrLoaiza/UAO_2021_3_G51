@@ -14,9 +14,4 @@ Parcial:
     git add -A
     git commit -m 'Parcial CODIGO_APELLIDO_NOMBRE'
     git push
-  ☐ Create Pull Request
-    ir a https://github.com/chrLoaiza/UAO_2021_3_G51
-    selecrionar la rama en la que se está trabajando
-    hacer click en boton contribute
-    crear Pull Request
-    EL TIULO DEBE SER Parcial_1 CODIGO_APELLIDO_NOMBRE
+  
