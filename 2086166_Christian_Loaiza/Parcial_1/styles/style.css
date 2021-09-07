@@ -23,6 +23,7 @@ body {
   min-width: 0;
   word-wrap: break-word;
   padding: 3rem;
+  flex-direction: column;
 }
 
 .img-container {
@@ -32,6 +33,7 @@ body {
   box-shadow: 4px 4px 15px #8791c4;
   padding: 8px;
   box-sizing: border-box;
+  border-radius: 50%;
 }
 
 .photo {
