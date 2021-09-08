@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="root-container">
-      <div class="header-elements">
+      <div class="headerelements">
         <img class="logo" src="./assets/logo.svg" alt="" />
         <nav class="header-nav">
           <button class="nav-button"><a class="black-link" href="#">Link_1</a></button>
@@ -57,9 +57,17 @@
           </p>
         </section>
       </article>
+      <button id="namedFunction" onclick="namedFunction(event)">Named!</button>
+      <!-- <button id="anonymous">Anonymous!</button>
+      <button id="arrow">Arrow!</button> -->
     </main>
     <footer class="root-container">
-        <p>contactos</p>
+        <label for="name">
+          <p>Name</p>
+          <input onblur="blurInput(event)" type="text">
+        </label>
     </footer>
   </body>
+  <script src="./javaScript/index.js">
+  </script>
 </html>
