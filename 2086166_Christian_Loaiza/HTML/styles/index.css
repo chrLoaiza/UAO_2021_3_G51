@@ -21,6 +21,11 @@ header {
   margin-bottom: 70px;
 }
 
+.headerelements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 /* Elements that have class="nav-button" */
 .nav-button {
   background: white;
