@@ -11,13 +11,13 @@ function buttonClicked(event) {
 }
 
 function formSubmited(event) {
-  let element = document.getElementById('form').children
+  /* let element = document.getElementById('form').children
   const loopSize = element.length;
   let mailData = {}
   for (let index = 0; index < loopSize; index++) {
     const element = document.getElementById('form').children[index];
     const inputEle = element.children[1];
     mailData[inputEle.name] = inputEle.value;
-  }
+  } */
+  alert('Listo para enviar');
 }
-
