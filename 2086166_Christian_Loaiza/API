@@ -1,0 +1,118 @@
+// https://www.7timer.info/bin/astro.php?lon=-75.6131877,17lat=-6.1505354&&ac=0&unit=metric&output=json&tzshift=0
+
+// https://restcountries.eu/rest/v2/name/colombia
+
+// https://randomuser.me/api/
+
+// https://www.thecocktaildb.com/api/json/v1/1/search.php?s=blue%20lagoon
+
+
+// Using Fecth
+fetch('https://randomuser.me/api/?results=10')
+.then((resp) => {
+    return resp.json()
+})
+.then((data) => {
+    console.log(data);
+})
+
+// Using Await/Async
+async function getUsers(){
+    const response = await fetch('https://randomuser.me/api/?results=10');
+    const data = await response.json();
+    return data.results
+}
+getUsers().then(users => {
+    for (let i = 0; i < users.length; i++){
+        const name = users[i].name;
+        console.log(`${name.title}. ${name.first} ${name.last}`)
+    }
+})
+
+
+// A promise
+const promise = new Promise((resolve, reject) => {
+  const number = Math.floor(Math.random() * 10);
+	const users = [{
+    name: 'Christian Loaiza',
+    id: 1,
+    userName: 'cloaizag'
+  },{
+    name: 'Felipe Perez',
+    id: 2,
+    userName: 'pepitoPerez'
+  }];
+
+	setTimeout(
+		() => {
+      if (number > 4){
+        return resolve(users)
+      } else {
+        return reject(new Error('404'))
+      }
+    },
+		1000
+	);
+});
+
+promise
+	.then(number => console.log(number))
+	.catch(error => console.error(error));
+
+
+
+  // Callbacks
+
+  function doSomething(fn) {
+    setTimeout(() => {
+        fn('hola KODOTI');
+    }, 0);
+}
+
+function doSomething2(fn) {
+    setTimeout(() => {
+        fn('Aprende más, haciendo pequeños proyectos ..');
+    }, 0);
+}
+
+function doSomething3(fn) {
+    setTimeout(() => {
+        fn('Hecho por Developers para Developers');
+    }, 0);
+}
+doSomething(m1 => {
+    console.log(m1);
+
+    doSomething2(m2 => {
+        console.log(m2);
+
+        doSomething3(m3 => {
+            console.log(m3);
+        });
+    });
+});
+
+
+// Promesas
+function doSomething() {
+    return new Promise(resolve =>
+        setTimeout(() => resolve('hola KODOTI'))
+    );
+}
+doSomething().then(x => console.log(x));
+
+// Async
+async function doSomething() {
+  return new Promise(resolve =>
+      setTimeout(() => resolve('hola KODOTI'))
+  );
+}
+
+let msg = await doSomething();
+console.log(msg);
+
+
+//https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
+
+
+//https://res.cloudinary.com/practicaldev/image/fetch/s--BLtCLQcd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://devtolydiahallie.s3-us-west-1.amazonaws.com/gif14.1.gif

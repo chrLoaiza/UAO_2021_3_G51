@@ -1,0 +1,114 @@
+body{
+    margin: 20px;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  
+  }
+  
+  header h1 i{
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  }
+  header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: rgba(209, 164, 16, 0.623);
+    margin-bottom: 50px;
+  }
+  header nav a{
+    text-align: center;
+    list-style: none;
+    color: white;
+    display: inline-block;
+    padding: 15px 15px 15px; 
+    line-break: 5;
+    text-decoration:rgb(17, 9, 8);
+   
+  }
+
+  header nav a:honver{
+    background: rgba(0,0,0,0.2);
+  
+  }
+  
+  
+  header h1{
+    min-height: 20vh;
+ 
+    background: url("http://jojo-animation.com/img/logo_jojo.svg") ;
+  
+    font-size: 1px;
+    
+   
+  
+    
+  }
+
+  
+  h2{ font-size: 34px;
+  text-transform: uppercase;
+  font-weight:  400;
+  line-height: 2;
+  color: rgba(225, 201, 65, 0.856);
+  }
+  p{
+    margin-bottom: 2rem;
+    line-height: 2;
+    color: darkred;
+  }
+  .root-container {
+    max-width:none;
+
+    width:auto;
+  }
+   .bnr {
+    position: absolute;
+    z-index: 300;
+    top: 39%;
+    right:400px;
+    left: 650px;;
+    width: 25.6%;
+    height: auto;
+  }
+  .bnr oro3 noSP{
+    position: absolute;
+    z-index: 300;
+    top: 39%;
+    right:400px;
+    left: 650px;;
+    width: 25.6%;
+    height: auto;
+  }
+
+  .wrapper{
+  
+    max-width: px;
+    margin: 0 auto;
+  
+  }
+  section{
+    margin: 15px;
+    padding: 20px;
+    background:rgb(106, 234, 238) ;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2) ;
+  }
+  body{
+
+    background-image: url("http://jojo-animation.com/img/top/top_com_wrap_bg.png");
+    font-family: sans-serif;
+  }
+  body.sticky-header header{
+    height: 60px;
+    background: salmon;
+    
+    }
+  body.sticky-header header h1{
+    transform: scale(0,0,);
+      padding-top: 100px;
+      }
