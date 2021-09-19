@@ -24,7 +24,7 @@ document
             <h3>${userData.name.title}. ${userData.name.first} ${userData.name.last}</h3>
             <p>${userData.email}</p>
             <p>${userData.phone}</p>
-            <p>${userData.location.city}</p>
+            <p>${userData.location.city}, ${userData.location.state}, ${userData.location.country}</p>
           </div>
         </div>`;
         userSection.innerHTML += userElement;
