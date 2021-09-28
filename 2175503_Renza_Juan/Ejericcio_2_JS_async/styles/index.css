@@ -10,7 +10,7 @@ body {
 .user-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(93, 250, 161);
+  border: 1px solid rgb(19, 72, 158);
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -18,12 +18,12 @@ body {
   box-sizing: border-box;
 }
 .user-header {
- background-color: rgb(190, 255, 255); 
+ background-color: rgb(107, 137, 236); 
  border-radius: 10px;
 }
 .user-header img {
   display: block;
-  border-radius: 50%;
+  border-radius: 25%;
   width: 75px;
   object-fit: scale-down;
   margin: 5px auto;
