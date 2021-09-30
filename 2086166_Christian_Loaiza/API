@@ -1,7 +1,5 @@
 // https://www.7timer.info/bin/astro.php?lon=-75.6131877,17lat=-6.1505354&&ac=0&unit=metric&output=json&tzshift=0
 
-// https://restcountries.eu/rest/v2/name/colombia
-
 // https://randomuser.me/api/
 
 // https://www.thecocktaildb.com/api/json/v1/1/search.php?s=blue%20lagoon
@@ -116,3 +114,17 @@ console.log(msg);
 
 
 //https://res.cloudinary.com/practicaldev/image/fetch/s--BLtCLQcd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://devtolydiahallie.s3-us-west-1.amazonaws.com/gif14.1.gif
+
+
+
+/**
+ * To create App-aplication could use 
+ * npm i -g create-react-app && create-react-app {applicatioNane}
+ * Install create-react-app globally and use it
+ * 
+ * another way to do it is npx create-react-app {applicationName}
+ * Execute package without installing
+ * 
+ * we could use {packahe_manager npm/yarn} run eject
+*/
+
