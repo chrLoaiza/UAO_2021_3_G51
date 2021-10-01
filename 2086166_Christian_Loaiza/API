@@ -119,7 +119,7 @@ console.log(msg);
 
 /**
  * To create App-aplication could use 
- * npm i -g create-react-app && create-react-app {applicatioNane}
+ * npm i -g create-react-app && create-react-app {applicationName}
  * Install create-react-app globally and use it
  * 
  * another way to do it is npx create-react-app {applicationName}
