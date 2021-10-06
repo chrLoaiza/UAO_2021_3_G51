@@ -3,11 +3,11 @@
 `npm init -y //This create a package.json`
 `npm i express`
 `npm i react react-dom`
+
 Is module bundle, allow to separate production packages from dev
-
 `npm i webpack webpack-cli`
-Compile JSX to regular React API calls
 
+Compile JSX to regular React API calls
 `npm i babel-loader @babel/core @babel/node @babel/preset-env @babel/preset-react`
 
 ## Dev dependencies
@@ -88,7 +88,7 @@ module.exports = {
 
 ### Add server script
 
-add
+add to **package.json**
 
 ```json
 "scripts": {
@@ -99,7 +99,12 @@ add
 
 ### Add files to run react
 
-create a **App.js** and **index.js** inside *components* directory and add this.
+create two folder in root.
+
+* `mkdir src/server`
+* `mkdir src/components`
+
+create a **App.js** inside *components* directory and add this.
 
 **App.js**
 
@@ -122,6 +127,7 @@ export default function App() {
 }
 ```
 
+create a **index.js** inside *src* directory and add this.
 **index.js**
 
 ```js
@@ -170,3 +176,5 @@ Could run one on each
 `npm run dev:bundler`
 
 **Note:** You can acces template from [template](https://github.com/jscomplete/rgs-template/tree/master/src "React Manually Template")
+
+https://jscomplete.com/learn/1rd-reactful
