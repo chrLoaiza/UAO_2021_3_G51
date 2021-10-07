@@ -5,7 +5,7 @@ header h1 {
 }
 
 body{
-  background-color: #7091FA;
+  background: #93ceff;
   font-family: 'Merriweather', serif;
 }
 
@@ -20,6 +20,18 @@ body{
   margin-bottom: 50px;
 }
 
+#request-btn:hover {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px; 
+  border-style: none;
+  position: relative;
+  left: calc(50% - 75px);
+  background-color: #7da3d1;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+}
+
 #dogs {
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +39,9 @@ body{
 
 #title{
   text-align: center;
+  font-size: 100px;
   padding: 50px;
+  color: #4178bb;
   font-family: 'Merriweather', serif;
 }
 
@@ -35,11 +49,12 @@ body{
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: rgb(99, 211, 247);;
+  background: linear-gradient(145deg, #9fdbff 0%, #82bbf3 100%);
+  box-shadow: 3px 3px 10px #7da3d1, -3px -3px 10px #bbf9ff;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  width: calc(calc(100% / 8) - 20px);
+  width: 210px;
   box-sizing: border-box;
 }
 .dog-header {
@@ -50,7 +65,7 @@ body{
 .dog-header img {
   display: block;
   border-radius: 5%;
-  width: 190px;
+  width: 180px;
   height: 190px;
   margin: 5px;
   object-fit: cover;
