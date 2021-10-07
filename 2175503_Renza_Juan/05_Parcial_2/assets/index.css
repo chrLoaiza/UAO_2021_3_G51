@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+header h1 {
+  margin-top: 0;
+}
+
+body{
+  background-color: #7091FA;
+  font-family: 'Merriweather', serif;
+}
+
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px; 
+  border-style: none;
+  position: relative;
+  left: calc(50% - 75px);
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+}
+
+#dogs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#title{
+  text-align: center;
+  padding: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+.dog-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(99, 211, 247);;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(calc(100% / 8) - 20px);
+  box-sizing: border-box;
+}
+.dog-header {
+ width: 200px;
+ height: 200px;
+ border-radius: 10px;
+}
+.dog-header img {
+  display: block;
+  border-radius: 5%;
+  width: 190px;
+  height: 190px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+.dog-body {
+  display: flex;
+  flex-direction: row;
+}
+.dog-body p, h3 {
+  margin: 5px;
+  width: 190px;
+  text-align: center;
+  word-wrap: break-word;
+}

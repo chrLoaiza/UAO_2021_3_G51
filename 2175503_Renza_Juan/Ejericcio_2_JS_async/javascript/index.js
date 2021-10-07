@@ -13,6 +13,7 @@ function generateUsers(){
   this.fetchUsersData()
   .then((data) => {
     const users = data.results;
+    debugger
     for (let index = 0; index < users.length; index++) {
       const element = users[index];
       const userElement= `
