@@ -17,9 +17,7 @@ document
         const userData = users[index];
         const userElement = `
         <div class="user-container">
-          <div class="user-header">
-            <img src="${userData.picture.large}" alt="medium_profile">
-          </div>
+
           <div class="user-body">
             <h3>${userData.name.title}. ${userData.name.first} ${userData.name.last}</h3>
             <p>${userData.email}</p>
