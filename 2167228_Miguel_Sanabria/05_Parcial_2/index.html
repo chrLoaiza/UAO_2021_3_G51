@@ -1,21 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcial 2</title>
-    <link rel="stylesheet" href="./assets/index.css" />
-  </head>
-  <body>
-    <header>
-      <h1 id="title">Parcial 2 Peticione HTTP</h1>
-    </header>
-      <section id="parcial">
-        <button id="request-btn" type="submit">Realizar petición.</button>
-        <div id="card-list"></div>
-      </section>
-    </main>
-  </body>
-  <script src="./logic/index.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/index.css">
+  <title>Parcial 2</title>
+</head>
+
+<body>
+  <main>
+    <h2>Pokedex</h2>
+    <div id="cards">
+      <div class="card-container" id="card-1">
+        <div class="card-header">
+          <img src="">
+        </div>
+        <div class="card-body">
+          <h3></h3>
+          <p></p>
+          <div class="stats">
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">Altura</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Peso</div>
+                <div class="value"></div>
+              </div>
+            </div>
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">HP</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Ataque</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Defensa</div>
+                <div class="value"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-container" id="card-2">
+        <div class="card-header">
+          <img src="">
+        </div>
+        <div class="card-body">
+          <h3></h3>
+          <p></p>
+          <div class="stats">
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">Altura</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Peso</div>
+                <div class="value"></div>
+              </div>
+            </div>
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">HP</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Ataque</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Defensa</div>
+                <div class="value"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-container" id="card-3">
+        <div class="card-header">
+          <img src="">
+        </div>
+        <div class="card-body">
+          <h3></h3>
+          <p></p>
+          <div class="stats">
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">Altura</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Peso</div>
+                <div class="value"></div>
+              </div>
+            </div>
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">HP</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Ataque</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Defensa</div>
+                <div class="value"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-container" id="card-4">
+        <div class="card-header">
+          <img src="">
+        </div>
+        <div class="card-body">
+          <h3></h3>
+          <p></p>
+          <div class="stats">
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">Altura</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Peso</div>
+                <div class="value"></div>
+              </div>
+            </div>
+            <div class="basestats">
+              <div class="stat">
+                <div class="type">HP</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Ataque</div>
+                <div class="value"></div>
+              </div>
+              <div class="stat">
+                <div class="type">Defensa</div>
+                <div class="value"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="wrapper">
+      <button id="apiButton" onclick="randomNumber()">Generar</button>
+    </div>   
+  </main>
+
+</body>
+<script src="./logic/index.js"></script>
+
 </html>
