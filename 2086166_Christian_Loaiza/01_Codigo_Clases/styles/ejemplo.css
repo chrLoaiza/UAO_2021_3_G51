@@ -1,0 +1,134 @@
+/* Body Tag Styles */
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Header, Main, Footer Styles */
+.root-container {
+  max-width: 728px;
+  width: 728px;
+}
+a:hover
+/* Header Tag Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  background-color: rgb(32, 173, 255);
+  margin-bottom: 70px;
+}
+
+.headerelements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Elements that have class="nav-button" */
+.nav-button {
+  background: white;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+/* Every based 2 element that have class="nav-button" */
+.nav-button:nth-of-type(2n) {
+  background-color: black;
+}
+
+.black-link {
+  color: black;
+}
+
+.nav-button a:link {
+  text-decoration: none;
+}
+
+.nav-button {
+  width: 55px;
+}
+
+.white-link {
+  color: white;
+}
+
+/* 
+*
+* STYLES FOR THE MAIN CONTAINER
+*
+*/
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.ads {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.ad-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.main_img {
+  width: 600px;
+  height: 500px;
+}
+
+.borders {
+  
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.big-container {
+  margin-bottom: 25px;
+}
+
+.big-container a {
+  width: 600px;
+  height: 500px;
+}
+
+/* .header-elements {
+  display: flex;
+  flex-flow: row;
+  background: aquamarine;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 150px;
+}
+
+
+/* -> width <= 620px*/
+/* @media (max-width: 620px) {
+  .main_img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .ad-container img {
+    width: 100px;
+    height: 100px;
+  }
+} */
+
+/* -> width => 728px*/
+/*@media (min-width: 728px) {
+
+} */
