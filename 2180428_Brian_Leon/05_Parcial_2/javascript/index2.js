@@ -21,13 +21,13 @@ function generateUsers() {
                 <p> <b>Phone: </b>${data[index].phone_number}</p>
                 <p> <b>Address: </b>${data[index].address}</p>
                 <br>
-                <p> <b>Monday: </b>${data[index].hours.monday.is_closed}</p>
-                <p> <b>Tuesday: </b>${data[index].hours.monday.is_closed}</p>
-                <p> <b>Wednesday: </b>${data[index].hours.monday.is_closed}</p>
-                <p> <b>Thursday: </b>${data[index].hours.monday.is_closed}</p>
-                <p> <b>Friday: </b>${data[index].hours.monday.is_closed}</p>
-                <p> <b>Saturday: </b>${data[index].hours.monday.is_closed}</p>
-                <p> <b>Sunday: </b>${data[index].hours.monday.is_closed}</p>
+                <p> <b>Monday: </b>${data[index].hours.monday.is_closed ? "Cerrado" : "Abierto" }</p>
+                <p> <b>Tuesday: </b>${data[index].hours.tuesday.is_closed ? "Cerrado" : "Abierto" }</p>
+                <p> <b>Wednesday: </b>${data[index].hours.wednesday.is_closed ? "Cerrado" : "Abierto" }</p>
+                <p> <b>Thursday: </b>${data[index].hours.thursday.is_closed ? "Cerrado" : "Abierto" }</p>
+                <p> <b>Friday: </b>${data[index].hours.friday.is_closed ? "Cerrado" : "Abierto" }</p>
+                <p> <b>Saturday: </b>${data[index].hours.saturday.is_closed ? "Cerrado" : "Abierto" }</p>
+                <p> <b>Sunday: </b>${data[index].hours.sunday.is_closed ? "Cerrado" : "Abierto" }</p>
                 </div>
                 </div>
                 `
