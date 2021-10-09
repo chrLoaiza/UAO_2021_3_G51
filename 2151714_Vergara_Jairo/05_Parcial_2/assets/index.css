@@ -1,0 +1,45 @@
+header h1 {
+  margin-top: 0;
+}
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 75px);
+  background-color: rgb(95, 95, 95);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  color: mintcream;
+}
+
+#parcial {
+  display: flex;
+  flex-wrap: wrap;
+}
+.anime-header {
+  background-color: rgb(158, 249, 255);
+  border-radius: 10px;
+  border: 10px solid rgba(0, 0, 0, 0.8);
+}
+
+#card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.anime-container {
+  font-family: "Signika Negative", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  background-color: rgb(201, 200, 200);
+  padding: 10px;
+  margin: 10px;
+
+  width: calc(33.3% - 20px);
+  box-sizing: border-box;
+}
+header {
+  font-family: "Signika Negative", sans-serif;
+  background-color: rgba(71, 71, 71, 0.521);
+  padding: 10px;
+}
