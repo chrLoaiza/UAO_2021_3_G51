@@ -132,7 +132,7 @@ footer {
   width: 100%;
   box-sizing: border-box;
   border-radius: 5px;
-  border: 1px solid rgb(0, 238, 255);
+  border: 1px solid rgba(0, 238, 255, 0.253);
 }
 
 .footer-form input {
@@ -149,7 +149,7 @@ footer {
   padding: 5px;
   font-weight: bold;
   color: rgb(34, 34, 34);
-  background-color: rgb(131, 242, 250);
+  background-color: rgb(228, 156, 247);
 }
 
 
@@ -158,8 +158,8 @@ footer {
   color: rgb(0, 0, 0);
   border-radius: 1px;
   overflow: hidden;
-  box-shadow: 0 1px 10px 5px rgba(255, 76, 76, 0.74);
+  box-shadow: 0 1px 10px 5px rgba(255, 76, 246, 0.74);
   transition: 0.4s ease;
-  background-color: rgba(248, 245, 54, 0.568);
+  background-color: rgba(54, 248, 190, 0.568);
   font-family: cursive;
 }

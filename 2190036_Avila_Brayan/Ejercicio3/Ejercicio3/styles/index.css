@@ -14,12 +14,12 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 90%;
+  width: 80%;
   justify-content: space-between;
 }
 
 .btn {
-    background-color: rgb(4, 48, 88);
+    background-color: rgba(4, 133, 127, 0.658);
     color: #fff;
     position: relative;
     margin: 0 50%;
@@ -30,11 +30,11 @@
 }
 .btn:hover{
   transition: all;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(173, 73, 73, 0.25) 0px 54px 55px, rgba(236, 38, 38, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transform: .4s;
 }
 .user-header {
-  background-color: rgb(24, 255, 236);
+  background-color: rgba(24, 255, 236, 0.37);
   border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@ h3 {
 }
 
 #contenedor {
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.534);
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -67,19 +67,21 @@ h3 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,243,0.9139005944174545) 50%, rgba(69,107,252,1) 100%);
+
 }
 
 header{
   width: 100%;
   min-height: 20vh;
   margin-top: -4%;
-  background-color: rgb(7, 125, 194);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,243,0.9139005944174545) 50%, rgba(69,107,252,1) 100%);
   border-bottom: 1px solid rgb(2, 2, 2);
 }
 header h1{
   padding: 60px 0;
   text-align: center;
-  font-family: 'Akronim', cursive;
+  font-family:  cursive;
   font-weight: 400;
   font-size: 83px;
   color: #fff;
