@@ -1,0 +1,39 @@
+
+#request-btn {
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 75px);
+  background-color: #B53471;
+}
+
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #9e3232;
+
+}
+#card-list{
+  display: flex;
+  gap: 2rem;
+  margin: 1rem;
+  flex-wrap: wrap;
+
+}
+
+.card_image{
+  width: 100%;
+}
+
+.card__thumb {
+  width: 30px;
+  height: 30px;      
+  border-radius: 30%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #be4f33;
+}
