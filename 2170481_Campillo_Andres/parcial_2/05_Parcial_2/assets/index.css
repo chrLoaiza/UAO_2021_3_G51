@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(357deg, rgb(33, 2, 68) 13%, rgb(125, 243, 243) 62%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 3px;
+  font-weight: 300;
+}
+
+hr {
+  border: .5px solid #fff;
+}
+
+
+:root {
+  --a: #000000;
+  --b: #5a48f8;
+  --c: #e2db77;
+}
+
+
+header h1 {
+  margin-top: 0;
+  color: rgb(161, 78, 78);
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 75px);
+}
+
+
+/*  */
+
+#users {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-container {
+  border: 2px inset rgb(5, 1, 1);
+  padding: 4 px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(calc(100% / 4) - 10px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: var(--c);
+  justify-content: center;
+}
+
+.user-header {
+  background: var(--b);
+  border-radius: 10px;
+}
+
+.user-header img {
+  display: block;
+  width: 200px;
+  object-fit: scale-down;
+  margin: 5px auto;
+}
+
+.user-body p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: 100;
+  color: rgb(14, 5, 5);
+  margin-top: 25px;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.user-body span {
+  color: rgb(0, 0, 0);
+  padding: 0 10px 0;
+}
+
+.user-heade {
+  border-radius: 10px;
+}
+
+.btn {
+  margin-top: 5vh;
+  border-radius: 5%;
+  border: none;
+  transition: all;
+  background: var(--b);
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
+  transition-timing-function: linear;
+}
+
+.btn:hover {
+  transition: all;
+  box-shadow: rgba(185, 44, 44, 0.85) 0px 3px 8px;
+}
+
+@keyframes example {
+  from {
+      background-color: #22577A;
+  }
+  to {
+      background-color: #6475c2bd;
+  }
+}
