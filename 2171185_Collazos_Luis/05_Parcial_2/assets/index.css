@@ -1,0 +1,58 @@
+#request-btn {
+  margin: 18px 50%;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(91, 17, 187, 0.8);
+  border-color: rgba(91, 17, 187, 0.8);
+  font-family: 'Gluten', cursive;
+  font-size: large;
+  border-radius: 10px;
+}
+
+header {
+  padding: 60px;
+  font-family: 'Gluten', cursive;
+  text-align: center;
+  background: rgba(187, 17, 82, 0.8);
+  color: white;
+  font-size: 30px;
+}
+
+#parcial {
+  background-color: rgba(39, 39, 39, 0.8);
+}
+
+#card-list {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  border: 3px solid rgba(187, 17, 82, 0.8);
+  background-color: rgb(201, 200, 200);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(33.3% - 20px);
+  box-sizing: border-box;
+}
+
+.card-header img {
+  display: block;
+  width: 100%;
+  object-fit: scale-down;
+  margin: 5px auto;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
