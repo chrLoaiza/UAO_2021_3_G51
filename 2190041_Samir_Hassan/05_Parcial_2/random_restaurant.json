@@ -1,0 +1,482 @@
+[
+    {
+        "id": 6359,
+        "uid": "a482d39b-ca3e-46e2-a582-4ec47a2adccb",
+        "name": "Fast Pizza",
+        "type": "Italian",
+        "description": "Our Mission at Denny’s is to establish beneficial business relationships with diverse suppliers who share our commitment to customer service, quality and competitive pricing.",
+        "review": "In terms of omakase, they had a few options but the one we chose was the 87 dollar version which include sashimi and sushi.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "1-629-136-0474 x27665",
+        "address": "77168 Huel Square, South Ewa, FL 59365-4741",
+        "hours": {
+            "monday": {
+                "opens_at": "10:13 AM",
+                "closes_at": "4:21 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "9:28 AM",
+                "closes_at": "6:40 PM",
+                "is_closed": true
+            },
+            "wednesday": {
+                "opens_at": "10:34 AM",
+                "closes_at": "4:31 PM",
+                "is_closed": false
+            },
+            "thursday": {
+                "opens_at": "10:57 AM",
+                "closes_at": "1:43 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "6:20 AM",
+                "closes_at": "2:37 PM",
+                "is_closed": true
+            },
+            "saturday": {
+                "opens_at": "10:42 AM",
+                "closes_at": "3:24 PM",
+                "is_closed": false
+            },
+            "sunday": {
+                "opens_at": "7:53 AM",
+                "closes_at": "7:11 PM",
+                "is_closed": false
+            }
+        }
+    },
+    {
+        "id": 248,
+        "uid": "2ba13757-e2d7-4c0e-9012-8dd7e3f8184b",
+        "name": "NJZ Curry",
+        "type": "Caribbean",
+        "description": "To deliver an exceptional shopping experience by offering the best service, value, quality, and freshest products while being good stewards of our environment and giving back to the communities we serve.",
+        "review": "Great place to stop in from a chaotic Times Square adventure! The coffee is great, the drinks are creative and the staff is very nice and hospitable. Cant wait to stop in again. Without a doubt 5 stars from me!!",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "(373) 355-9294 x672",
+        "address": "5324 Almeda Ridges, Port Georgestad, CO 03727",
+        "hours": {
+            "monday": {
+                "opens_at": "7:41 AM",
+                "closes_at": "10:18 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "10:27 AM",
+                "closes_at": "12:15 PM",
+                "is_closed": false
+            },
+            "wednesday": {
+                "opens_at": "10:59 AM",
+                "closes_at": "3:46 PM",
+                "is_closed": false
+            },
+            "thursday": {
+                "opens_at": "7:14 AM",
+                "closes_at": "9:18 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "9:36 AM",
+                "closes_at": "4:39 PM",
+                "is_closed": true
+            },
+            "saturday": {
+                "opens_at": "8:42 AM",
+                "closes_at": "2:15 PM",
+                "is_closed": false
+            },
+            "sunday": {
+                "opens_at": "8:10 AM",
+                "closes_at": "11:56 PM",
+                "is_closed": true
+            }
+        }
+    },
+    {
+        "id": 799,
+        "uid": "2d85cd30-ef5a-4cc3-be19-b70af089a562",
+        "name": "Sweet Subs",
+        "type": "Greek",
+        "description": "To ensure that each guest receives prompt, professional, friendly and courteous service. To maintain a clean, comfortable and well maintained premises for our guests and staff. To provide at a fair price – nutritional, well-prepared meals – using only quality ingredients. To ensure that all guests and staff are treated with the respect and dignity they deserve. To thank each guest for the opportunity to serve them. By maintaining these objectives we shall be assured of a fair profit that will allow us to contribute to the community we serve.",
+        "review": "Overall, the evening was a smash and I am so glad there is a new location closer to my office!!",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "807.569.4871",
+        "address": "Suite 569 610 Pfannerstill Spring, Lake Murray, ME 84895-9904",
+        "hours": {
+            "monday": {
+                "opens_at": "6:19 AM",
+                "closes_at": "4:15 PM",
+                "is_closed": true
+            },
+            "tuesday": {
+                "opens_at": "11:49 AM",
+                "closes_at": "4:35 PM",
+                "is_closed": true
+            },
+            "wednesday": {
+                "opens_at": "10:43 AM",
+                "closes_at": "1:41 PM",
+                "is_closed": true
+            },
+            "thursday": {
+                "opens_at": "7:58 AM",
+                "closes_at": "8:26 PM",
+                "is_closed": true
+            },
+            "friday": {
+                "opens_at": "10:52 AM",
+                "closes_at": "5:14 PM",
+                "is_closed": true
+            },
+            "saturday": {
+                "opens_at": "10:16 AM",
+                "closes_at": "7:37 PM",
+                "is_closed": true
+            },
+            "sunday": {
+                "opens_at": "7:46 AM",
+                "closes_at": "3:31 PM",
+                "is_closed": true
+            }
+        }
+    },
+    {
+        "id": 183,
+        "uid": "7115e1c6-2eff-44b0-8f71-30ed9404abf6",
+        "name": "Golden Brasserie",
+        "type": "Vegan",
+        "description": "To sell delicious and remarkable food and drinks. That the food and drink we sell meets the highest standards of quality, freshness and seasonality and combines both modern-creative and traditional southern styles of cooking. To consistently provide our customers with impeccable service by demonstrating warmth, graciousness, efficiency, knowledge, professionalism and integrity in our work. To have every customer who comes through our doors leave impressed by Maxie’s and excited to come back again. To create and maintain a restaurant that is comprehensive and exceptional in its attention to every detail of operation. To provide all who work with us a friendly, cooperative and rewarding environment which encourages long- term, satisfying, growth employment. To keep our concept fresh, exciting and on the cutting edge of the hospitality and entertainment industry. To be a giving member of the Ithaca community and to use our restaurant to improve the quality of life in the Finger Lakes region.",
+        "review": "I first heard about this place through Instagram post. The drinks looked creative so I made it a point to give it try while in the city. Located inside American Eagle in Times Square they serve up the coolest non-alcoholic beverages. You have an array of options from tea, soda, coffee, latte, water and more. Theres countertops (with phone chargers) so youre able to stand and enjoy your beverage. This visit I opted for the Pegasus latte which was not only beautiful but tasted just as good as it looked. Great staff and great service. This is a must try if you are in the area. Im sure Ill be back soon!",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "987.128.6048 x78214",
+        "address": "Apt. 260 54654 Emard Path, Port Nicolasshire, OH 55105",
+        "hours": {
+            "monday": {
+                "opens_at": "8:31 AM",
+                "closes_at": "1:11 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "9:50 AM",
+                "closes_at": "10:11 PM",
+                "is_closed": false
+            },
+            "wednesday": {
+                "opens_at": "8:11 AM",
+                "closes_at": "8:44 PM",
+                "is_closed": false
+            },
+            "thursday": {
+                "opens_at": "8:55 AM",
+                "closes_at": "7:54 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "9:39 AM",
+                "closes_at": "8:12 PM",
+                "is_closed": false
+            },
+            "saturday": {
+                "opens_at": "11:58 AM",
+                "closes_at": "4:28 PM",
+                "is_closed": true
+            },
+            "sunday": {
+                "opens_at": "11:25 AM",
+                "closes_at": "3:19 PM",
+                "is_closed": false
+            }
+        }
+    },
+    {
+        "id": 2602,
+        "uid": "7b22627f-b8ec-4378-a016-ce42dddce5a0",
+        "name": "Sugar Bar \u0026 Grill",
+        "type": "Indian",
+        "description": "We earn the loyalty of the people we serve by first anticipating, then fulfilling their needs with our superior-quality products, a unique shopping experience, customer-focused service and continuous innovation, while generating long-term profitable growth for our shareholders.",
+        "review": "Brand new. Great design. Odd to hear pop music in a Mexican establishment. Music is a bit loud. It should be background.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "771.356.8826 x366",
+        "address": "Suite 969 89888 Shaina Pine, Genevieville, MI 42074",
+        "hours": {
+            "monday": {
+                "opens_at": "10:44 AM",
+                "closes_at": "8:56 PM",
+                "is_closed": true
+            },
+            "tuesday": {
+                "opens_at": "9:26 AM",
+                "closes_at": "7:29 PM",
+                "is_closed": false
+            },
+            "wednesday": {
+                "opens_at": "10:10 AM",
+                "closes_at": "9:51 PM",
+                "is_closed": true
+            },
+            "thursday": {
+                "opens_at": "8:56 AM",
+                "closes_at": "4:58 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "7:56 AM",
+                "closes_at": "1:26 PM",
+                "is_closed": true
+            },
+            "saturday": {
+                "opens_at": "9:49 AM",
+                "closes_at": "2:40 PM",
+                "is_closed": false
+            },
+            "sunday": {
+                "opens_at": "9:21 AM",
+                "closes_at": "3:38 PM",
+                "is_closed": true
+            }
+        }
+    },
+    {
+        "id": 5759,
+        "uid": "3f62141f-ca00-44ef-b87c-599e71464f36",
+        "name": "Sweet Pub",
+        "type": "Indian",
+        "description": "To achieve and maintain such distinction in food and wine, service, atmosphere and setting that the restaurant gains a first class reputation for gastronomy, gracious and informed hospitality, comfort and beauty which draws new and repeat customers year after year. To achieve the above whilst upholding staff policies and practices which promote a fair and positive working environment. To be aware of and act on our responsibilities as a good corporate citizen to  provide a safe, clean and attractive place for guests to enjoy and for employees to work in - ensure ecologically sound management practices at the restaurant and in our surrounding gardens and woods - undertake meaningful involvement of Restaurant Les Fougères in selected charitable activities in our community and region.",
+        "review": "My only critique would be that the rice could of used more vingaer and for them to use real wasabi. Also the variety of fish in stock wasnt a lot but hopefully that can change over time. The cost justify the quality youre getting. A solid 4 stars.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "415-812-2175 x2724",
+        "address": "445 Gislason Plains, Rayfordville, NE 25193-2672",
+        "hours": {
+            "monday": {
+                "opens_at": "9:49 AM",
+                "closes_at": "7:54 PM",
+                "is_closed": true
+            },
+            "tuesday": {
+                "opens_at": "9:14 AM",
+                "closes_at": "5:37 PM",
+                "is_closed": false
+            },
+            "wednesday": {
+                "opens_at": "9:35 AM",
+                "closes_at": "12:37 PM",
+                "is_closed": false
+            },
+            "thursday": {
+                "opens_at": "11:17 AM",
+                "closes_at": "1:22 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "9:45 AM",
+                "closes_at": "10:37 PM",
+                "is_closed": true
+            },
+            "saturday": {
+                "opens_at": "11:30 AM",
+                "closes_at": "9:40 PM",
+                "is_closed": true
+            },
+            "sunday": {
+                "opens_at": "6:49 AM",
+                "closes_at": "8:14 PM",
+                "is_closed": false
+            }
+        }
+    },
+    {
+        "id": 8273,
+        "uid": "27edf15a-ed49-4257-93c9-033784267256",
+        "name": "Blue Plate Gastropub",
+        "type": "Sandwiches",
+        "description": "We earn the loyalty of the people we serve by first anticipating, then fulfilling their needs with our superior-quality products, a unique shopping experience, customer-focused service and continuous innovation, while generating long-term profitable growth for our shareholders.",
+        "review": "Great lattes and cold drinks as well. Nice to see a place carrying local coffee and products in Times Square! Excited to make it a part of my morning commute as it is much less crowded than the chain coffee shops around here.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "1-829-845-7027 x07236",
+        "address": "Suite 766 912 Harris Rue, Bernardview, GA 51883",
+        "hours": {
+            "monday": {
+                "opens_at": "7:44 AM",
+                "closes_at": "9:28 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "10:38 AM",
+                "closes_at": "1:54 PM",
+                "is_closed": false
+            },
+            "wednesday": {
+                "opens_at": "6:37 AM",
+                "closes_at": "4:47 PM",
+                "is_closed": true
+            },
+            "thursday": {
+                "opens_at": "7:46 AM",
+                "closes_at": "4:17 PM",
+                "is_closed": true
+            },
+            "friday": {
+                "opens_at": "6:51 AM",
+                "closes_at": "12:43 PM",
+                "is_closed": false
+            },
+            "saturday": {
+                "opens_at": "9:18 AM",
+                "closes_at": "3:29 PM",
+                "is_closed": true
+            },
+            "sunday": {
+                "opens_at": "10:36 AM",
+                "closes_at": "10:56 PM",
+                "is_closed": false
+            }
+        }
+    },
+    {
+        "id": 1366,
+        "uid": "e9a49433-a776-469a-b1cb-16a6cdc7297a",
+        "name": "Green Pizza",
+        "type": "Tex Mex",
+        "description": "To achieve and maintain such distinction in food and wine, service, atmosphere and setting that the restaurant gains a first class reputation for gastronomy, gracious and informed hospitality, comfort and beauty which draws new and repeat customers year after year. To achieve the above whilst upholding staff policies and practices which promote a fair and positive working environment. To be aware of and act on our responsibilities as a good corporate citizen to  provide a safe, clean and attractive place for guests to enjoy and for employees to work in - ensure ecologically sound management practices at the restaurant and in our surrounding gardens and woods - undertake meaningful involvement of Restaurant Les Fougères in selected charitable activities in our community and region.",
+        "review": "Staff was very accommodating but the chef were no nonsense. The ambiance is clean and tranquil which is perfect if youre looking to have a conversation with a date or a friend.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "800.905.6601 x031",
+        "address": "33681 Salley Pass, West Cherrylberg, IA 06602",
+        "hours": {
+            "monday": {
+                "opens_at": "10:54 AM",
+                "closes_at": "8:16 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "6:59 AM",
+                "closes_at": "1:16 PM",
+                "is_closed": false
+            },
+            "wednesday": {
+                "opens_at": "10:53 AM",
+                "closes_at": "10:43 PM",
+                "is_closed": false
+            },
+            "thursday": {
+                "opens_at": "8:31 AM",
+                "closes_at": "6:14 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "10:22 AM",
+                "closes_at": "10:34 PM",
+                "is_closed": false
+            },
+            "saturday": {
+                "opens_at": "6:17 AM",
+                "closes_at": "9:32 PM",
+                "is_closed": false
+            },
+            "sunday": {
+                "opens_at": "6:58 AM",
+                "closes_at": "3:57 PM",
+                "is_closed": false
+            }
+        }
+    },
+    {
+        "id": 947,
+        "uid": "bb3d1e94-20e5-47e4-aef9-7d5eb71335a7",
+        "name": "Golden Cafe",
+        "type": "French",
+        "description": "We are committed to using the finest ingredients in our recipes. No food leaves our kitchen that we ourselves would not eat.",
+        "review": "Brand new. Great design. Odd to hear pop music in a Mexican establishment. Music is a bit loud. It should be background.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "1-388-120-5090 x8741",
+        "address": "702 Walker Mills, West Loida, PA 83754-0937",
+        "hours": {
+            "monday": {
+                "opens_at": "10:48 AM",
+                "closes_at": "2:52 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "8:29 AM",
+                "closes_at": "3:13 PM",
+                "is_closed": true
+            },
+            "wednesday": {
+                "opens_at": "9:11 AM",
+                "closes_at": "5:18 PM",
+                "is_closed": true
+            },
+            "thursday": {
+                "opens_at": "8:56 AM",
+                "closes_at": "6:26 PM",
+                "is_closed": false
+            },
+            "friday": {
+                "opens_at": "9:11 AM",
+                "closes_at": "4:28 PM",
+                "is_closed": true
+            },
+            "saturday": {
+                "opens_at": "8:32 AM",
+                "closes_at": "12:45 PM",
+                "is_closed": false
+            },
+            "sunday": {
+                "opens_at": "7:17 AM",
+                "closes_at": "10:22 PM",
+                "is_closed": true
+            }
+        }
+    },
+    {
+        "id": 3997,
+        "uid": "ce8657e5-a4ba-43d2-9285-aa6f42be26a0",
+        "name": "IX Brasserie",
+        "type": "Caribbean",
+        "description": "Culver’s Restaurant was founded by the Culver family in 1984, which eventually branched out to more than 300 franchised restaurants all over the US. Culver’s is well-known for its ButterBurger, which made the restaurant extremely famous. They also have other items which include salads, sandwiches, desserts, etc.",
+        "review": "Staff was very accommodating but the chef were no nonsense. The ambiance is clean and tranquil which is perfect if youre looking to have a conversation with a date or a friend.",
+        "logo": "https://loremflickr.com/500/500/restaurant",
+        "phone_number": "891.694.4536",
+        "address": "90999 Bogan Parks, Fadelshire, CA 85112-0296",
+        "hours": {
+            "monday": {
+                "opens_at": "6:26 AM",
+                "closes_at": "9:37 PM",
+                "is_closed": false
+            },
+            "tuesday": {
+                "opens_at": "10:30 AM",
+                "closes_at": "3:13 PM",
+                "is_closed": true
+            },
+            "wednesday": {
+                "opens_at": "6:47 AM",
+                "closes_at": "2:22 PM",
+                "is_closed": false
+            },
+            "thursday": {
+                "opens_at": "10:35 AM",
+                "closes_at": "12:47 PM",
+                "is_closed": true
+            },
+            "friday": {
+                "opens_at": "10:54 AM",
+                "closes_at": "3:16 PM",
+                "is_closed": false
+            },
+            "saturday": {
+                "opens_at": "9:14 AM",
+                "closes_at": "9:12 PM",
+                "is_closed": false
+            },
+            "sunday": {
+                "opens_at": "11:49 AM",
+                "closes_at": "11:13 PM",
+                "is_closed": true
+            }
+        }
+    }
+]

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+header h1 {
+  margin-top: 0;
+}
+
+body{
+  background: #93ceff;
+  font-family: 'Merriweather', serif;
+}
+
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px; 
+  border-style: none;
+  position: relative;
+  left: calc(50% - 75px);
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+}
+
+#request-btn:hover {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px; 
+  border-style: none;
+  position: relative;
+  left: calc(50% - 75px);
+  background-color: #7da3d1;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+}
+
+#dogs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#title{
+  text-align: center;
+  font-size: 100px;
+  padding: 50px;
+  color: #4178bb;
+  font-family: 'Merriweather', serif;
+}
+
+.dog-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(145deg, #9fdbff 0%, #82bbf3 100%);
+  box-shadow: 3px 3px 10px #7da3d1, -3px -3px 10px #bbf9ff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 210px;
+  box-sizing: border-box;
+}
+.dog-header {
+ width: 200px;
+ height: 200px;
+ border-radius: 10px;
+}
+.dog-header img {
+  display: block;
+  border-radius: 5%;
+  width: 180px;
+  height: 190px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+.dog-body {
+  display: flex;
+  flex-direction: row;
+}
+.dog-body p, h3 {
+  margin: 5px;
+  width: 190px;
+  text-align: center;
+  word-wrap: break-word;
+}

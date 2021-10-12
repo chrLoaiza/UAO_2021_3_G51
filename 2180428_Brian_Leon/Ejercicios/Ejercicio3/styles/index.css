@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+#apiButton {
+  margin: 0 50%;
+  width: 150px;
+  padding: 10px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+#users {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.btn {
+    background-color: rgb(4, 48, 88);
+    color: #fff;
+    position: relative;
+    margin: 0 50%;
+    width: 150px;
+    padding: 10px;
+    left: -78px;
+    transition: all;
+}
+.btn:hover{
+  transition: all;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transform: .4s;
+}
+.user-header {
+  background-color: rgb(7, 125, 194);
+  border-radius: 10px;
+}
+
+.user-header img {
+  display: block;
+  border-radius: 50%;
+  width: 75px;
+  object-fit: scale-down;
+  margin: 5px auto;
+}
+
+.user-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-body p,
+h3 {
+  margin: 5px;
+  word-wrap: break-word;
+}
+
+#contenedor {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(calc(100% / 3) - 20px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+header{
+  width: 100%;
+  min-height: 20vh;
+  margin-top: -4%;
+  background-color: rgb(7, 125, 194);
+  border-bottom: 1px solid rgb(2, 2, 2);
+}
+header h1{
+  padding: 60px 0;
+  text-align: center;
+  font-family: 'Akronim', cursive;
+  font-weight: 400;
+  font-size: 83px;
+  color: #fff;
+}
+
+hr {
+  border: .1px solid rgb(0, 0, 0);
+}
+

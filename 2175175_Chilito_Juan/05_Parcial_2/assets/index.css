@@ -1,0 +1,53 @@
+#request-btn {
+  margin: 15px 800px;
+  width: 250px 200px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(67, 241, 81);
+  border-radius: 15px;
+}
+
+header {
+  padding: 50px;
+  text-align: center;
+  background: rgb(255, 251, 0);
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+#parcial {
+  background-color: rgb(240, 240, 240);
+}
+
+#card-list {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.card-header {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgb(255, 251, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+}
+
+.card-header img {
+  display: block;
+  width: 100%;
+  object-fit: scale-down;
+  margin: 5px auto;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}

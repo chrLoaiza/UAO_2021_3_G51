@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
-        "dev:bundler": "webpack -w --mode=development"
+    "dev:bundler": "webpack -w --mode=development"
   },
   "keywords": [],
   "author": "",

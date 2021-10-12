@@ -1,0 +1,56 @@
+header h1 {
+  margin-top: 0;
+}
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 75px);
+}
+
+
+
+#card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dogCard {
+  display: flex;
+  justify-content: center;
+  width: 190px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #e5e5e5;
+  border: #af5faf solid 1px;
+  overflow: hidden;
+  margin: 5px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.dogHeader {
+  flex-direction: column;
+  width: 100%;
+  width: auto;
+  height: auto;
+  
+}
+
+.imageContainer {
+
+
+  height: 200px;
+}
+
+.dogHeader img {
+  height: auto;
+  width: 100%;
+}
+
+.dogNumber {
+  font-size: 10px;
+  margin-top: 10px;
+  color: #6a515e;
+}

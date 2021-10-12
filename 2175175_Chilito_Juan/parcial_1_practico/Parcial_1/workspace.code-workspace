@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../../Udemy/css"
+		},
+		{
+			"path": "../../../../../Udemy/html_formulario"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UAO_2021_3_G51",
+		"git.ignoreLimitWarning": true
+	}
+}
