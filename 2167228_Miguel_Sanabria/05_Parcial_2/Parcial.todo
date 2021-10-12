@@ -1,0 +1,15 @@
+API:
+https://dog.ceo/api/breeds/image/random/10
+https://animechan.vercel.app/api/quotes
+https://random-data-api.com/api/restaurant/random_restaurant?size=10
+
+Tasks:
+✔ Actualizar repositorio @done (5/10/2021, 11:04:14 p. m.)
+☐ Realizar una petición http (fetch) a una de las siguientes API en index.js
+  https://dog.ceo/api/breeds/image/random/10
+  https://animechan.vercel.app/api/quotes
+  https://random-data-api.com/api/restaurant/random_restaurant?size=10
+☐ Generar un listado de elementos html con la respuesta de una de esas API
+☐ Modificar los estilos CSS en index.css
+☐ Subir el parcial a la rama
+☐ Crear un PR
