@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(357deg, rgba(0, 0, 0, 1) 0%, rgb(44, 2, 68) 13%, rgba(111, 226, 241, 0.726) 62%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 3px;
+  font-weight: 300;
+}
+
+hr {
+  border: 5px solid rgba(231, 249, 252, 0.418);
+}
+
+
+/*  */
+
+:root {
+  --a: #ccf000;
+  --b: #266bff5d;
+  --c: #b433b85e;
+}
+
+
+/*  */
+
+#Titulo {
+  margin-top: 1;
+  color: rgb(49, 3, 47);
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  font-family: cursive, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 75px);
+}
+
+
+/*  */
+
+#users {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-container {
+  border: 2px inset rgba(248, 199, 255, 0.596);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(calc(100% / 3) - 20px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  background-color: var(--c);
+  justify-content: center;
+}
+
+.user-header {
+  background: var(--b);
+  border-radius: 10px;
+}
+
+.user-header img {
+  display: block;
+  width: 75px;
+  object-fit: scale-down;
+  margin: 5px auto;
+}
+
+.user-body p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 100;
+  color: rgba(187, 248, 250, 0.623);
+  margin-top: 25px;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.user-body span {
+  color: rgba(245, 170, 255, 0.795);
+  padding: 0 10px 0;
+}
+
+.user-heade {
+  border-radius: 10px;
+}
+
+.Boton_peticion {
+  margin-top: 5vh;
+  border-radius: 5%;
+  border: none;
+  transition: all;
+  background: var(--b);
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
+  transition-timing-function: linear;
+}
+
+.btn:hover {
+  transition: all;
+  box-shadow: rgba(255, 255, 255, 0.85) 0px 3px 8px;
+}
+

@@ -1,0 +1,46 @@
+header h1 {
+  margin-top: 0;
+
+}
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 755px);
+  background-color: chartreuse;
+  border-radius: 20px;
+}
+body {
+  background-color: rgb(255, 162, 133);
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+
+}
+
+#animeQuotes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animeQuote-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.animeQuote-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(206, 115, 55);
+  padding: 7px;
+  margin: 7px;
+  border-radius: 20px;
+  width: calc(calc(100% / 3) - 20px);
+  box-sizing: border-box;
+}
+
+.animeQuote-body p, h3 {
+  margin: 5px;
+  word-wrap: break-word;
+  color: rgb(15, 15, 15);
+}

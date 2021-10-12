@@ -1,0 +1,290 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Elli",
+                "last": "Latt"
+            },
+            "location": {
+                "street": {
+                    "number": 2242,
+                    "name": "Hämeenkatu"
+                },
+                "city": "Siilinjärvi",
+                "state": "Pirkanmaa",
+                "country": "Finland",
+                "postcode": 59046,
+                "coordinates": {
+                    "latitude": "-14.8558",
+                    "longitude": "133.4793"
+                },
+                "timezone": {
+                    "offset": "+2:00",
+                    "description": "Kaliningrad, South Africa"
+                }
+            },
+            "email": "elli.latt@example.com",
+            "login": {
+                "uuid": "270833c9-8707-4651-8626-566d4fcda264",
+                "username": "happygoose450",
+                "password": "bonnie",
+                "salt": "BaExvgbz",
+                "md5": "6d059412ea5b514030e0a62e3a12b5ae",
+                "sha1": "23e580c46b293c7e3360e6c800f2881b96f099d1",
+                "sha256": "10194fc72631f7e7e3ace98b998477d341a5b14285786882ce1b0d9bb981d45e"
+            },
+            "dob": {
+                "date": "1968-03-28T14:11:27.739Z",
+                "age": 53
+            },
+            "registered": {
+                "date": "2016-06-27T08:52:45.391Z",
+                "age": 5
+            },
+            "phone": "09-786-143",
+            "cell": "042-242-08-30",
+            "id": {
+                "name": "HETU",
+                "value": "NaNNA008undefined"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/30.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/30.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/30.jpg"
+            },
+            "nat": "FI"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "سپهر",
+                "last": "حیدری"
+            },
+            "location": {
+                "street": {
+                    "number": 7772,
+                    "name": "میدان دکتر فاطمی / جهاد"
+                },
+                "city": "اصفهان",
+                "state": "آذربایجان غربی",
+                "country": "Iran",
+                "postcode": 88142,
+                "coordinates": {
+                    "latitude": "-40.3309",
+                    "longitude": "-107.6237"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "sphr.hydry@example.com",
+            "login": {
+                "uuid": "740e5001-fa57-42ac-b20d-142ae8a8b773",
+                "username": "heavyladybug293",
+                "password": "prosper",
+                "salt": "fqjN4GOG",
+                "md5": "feb99271c5e3ac3f322d56ba14283eb2",
+                "sha1": "2006404c10b2f03bfa8e5d6edd152eb73ef8f2e2",
+                "sha256": "7f7c664fc94e70362c89d4be527fbb49ebf5cf4becf085ec4acdb862c84d9c44"
+            },
+            "dob": {
+                "date": "1952-04-25T15:42:15.944Z",
+                "age": 69
+            },
+            "registered": {
+                "date": "2010-06-11T21:49:45.793Z",
+                "age": 11
+            },
+            "phone": "094-37334009",
+            "cell": "0961-347-2712",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/4.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/4.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/4.jpg"
+            },
+            "nat": "IR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Mrs",
+                "first": "Maya",
+                "last": "Harrison"
+            },
+            "location": {
+                "street": {
+                    "number": 7950,
+                    "name": "King Street"
+                },
+                "city": "Manchester",
+                "state": "Hampshire",
+                "country": "United Kingdom",
+                "postcode": "YI5I 1WZ",
+                "coordinates": {
+                    "latitude": "-64.4937",
+                    "longitude": "-10.9258"
+                },
+                "timezone": {
+                    "offset": "+4:30",
+                    "description": "Kabul"
+                }
+            },
+            "email": "maya.harrison@example.com",
+            "login": {
+                "uuid": "0e64b556-00ea-4256-84b1-39eb6aac4879",
+                "username": "yellowwolf730",
+                "password": "tttt",
+                "salt": "H2ELSEGL",
+                "md5": "04fb3fba7885ca77d187b9cc226da2a7",
+                "sha1": "09b5874ad3f60788c7046cd81ccf618f0428adea",
+                "sha256": "449d33fe836947f7d35fae40fb23542bec85ed3267eed5ca6efc25644ee9607c"
+            },
+            "dob": {
+                "date": "1966-02-16T01:56:27.867Z",
+                "age": 55
+            },
+            "registered": {
+                "date": "2016-04-23T13:52:30.198Z",
+                "age": 5
+            },
+            "phone": "017683 41961",
+            "cell": "0713-061-817",
+            "id": {
+                "name": "NINO",
+                "value": "EM 17 26 01 I"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/82.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/82.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/82.jpg"
+            },
+            "nat": "GB"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Thea",
+                "last": "Brown"
+            },
+            "location": {
+                "street": {
+                    "number": 4658,
+                    "name": "Market Street"
+                },
+                "city": "Rotorua",
+                "state": "Waikato",
+                "country": "New Zealand",
+                "postcode": 31992,
+                "coordinates": {
+                    "latitude": "6.4347",
+                    "longitude": "132.4346"
+                },
+                "timezone": {
+                    "offset": "-3:00",
+                    "description": "Brazil, Buenos Aires, Georgetown"
+                }
+            },
+            "email": "thea.brown@example.com",
+            "login": {
+                "uuid": "79b789ef-fb6c-4de9-9313-973ca99d9257",
+                "username": "heavywolf364",
+                "password": "niang",
+                "salt": "p5ieyl03",
+                "md5": "f8630e1df3e5f011ffc828678d7e8ff9",
+                "sha1": "5168026e36996cdc36b2b8b58fc1c60296d2712f",
+                "sha256": "b0e3ed7a590c80739a24791da91cf2f802a5a98fc546cf2c4e5596aa836d7c1f"
+            },
+            "dob": {
+                "date": "1962-04-28T06:27:55.010Z",
+                "age": 59
+            },
+            "registered": {
+                "date": "2018-05-30T23:01:37.353Z",
+                "age": 3
+            },
+            "phone": "(773)-384-9637",
+            "cell": "(671)-948-8567",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/92.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/92.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/92.jpg"
+            },
+            "nat": "NZ"
+        },
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Kadir",
+                "last": "Ağaoğlu"
+            },
+            "location": {
+                "street": {
+                    "number": 9988,
+                    "name": "Vatan Cd"
+                },
+                "city": "Karaman",
+                "state": "Tekirdağ",
+                "country": "Turkey",
+                "postcode": 51137,
+                "coordinates": {
+                    "latitude": "-54.1818",
+                    "longitude": "-156.2816"
+                },
+                "timezone": {
+                    "offset": "-9:00",
+                    "description": "Alaska"
+                }
+            },
+            "email": "kadir.agaoglu@example.com",
+            "login": {
+                "uuid": "44752851-9c64-4365-abce-f3c4ef971ff8",
+                "username": "organicmeercat838",
+                "password": "buck",
+                "salt": "wG0fjl0E",
+                "md5": "697bd74b3ad803581920fd10844aa466",
+                "sha1": "d84dea30df78fbef5723395f60586dd5a0ec1b9b",
+                "sha256": "0c2a07961bf60436feaa7e8bffe3179ef8f841a01a554373dec6854dd65c6e54"
+            },
+            "dob": {
+                "date": "1990-08-08T18:35:14.905Z",
+                "age": 31
+            },
+            "registered": {
+                "date": "2002-12-29T03:42:26.801Z",
+                "age": 19
+            },
+            "phone": "(819)-319-5159",
+            "cell": "(844)-680-2277",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/74.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/74.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg"
+            },
+            "nat": "TR"
+        }
+    ],
+    "info": {
+        "seed": "fdc390c965b88f07",
+        "results": 5,
+        "page": 1,
+        "version": "1.3"
+    }
+}

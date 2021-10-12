@@ -1,0 +1,54 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+      text-align: center;
+      margin: 2rem;
+      background-color: #C7DCFF;
+  }
+
+  #btnGenerar {
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 16px;
+    background-color: #CBC2FF;
+    border-color: #F4DBFF;
+    border-radius: 20px;
+  }
+
+  
+  #usuarios {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #CBC2FF;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: calc(calc(100% / 5) - 20px);
+    box-sizing: border-box;
+  }
+  .encabezado {
+   background-color: #F4DBFF; 
+   border-radius: 20px;
+  }
+  .encabezado img {
+    display: block;
+    border-radius: 50%;
+    width: 75px;
+    object-fit: scale-down;
+    margin: 5px auto;
+  }
+  
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .cuerpo p, h3 {
+    margin: 5px;
+    word-wrap: break-word;
+    text-align: center;
+    color: #2B2936;
+  }
