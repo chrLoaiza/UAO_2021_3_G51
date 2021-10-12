@@ -1,0 +1,14 @@
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ie-img {
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  object-fit: scale-down;
+  border-radius: 10px;
+  border: 1px solid skyblue;
+}

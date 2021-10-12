@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="root-container">
+      <div class="headerelements">
+        <img class="logo" src="./assets/logo.svg" alt="" />
+        <nav class="header-nav">
+          <button class="nav-button">
+            <a class="black-link" href="#">Link_1</a>
+          </button>
+          <button class="nav-button">
+            <a class="white-link" href="#">Link_2</a>
+          </button>
+          <button class="nav-button">
+            <a class="black-link" href="#">Link_3</a>
+          </button>
+          <button class="nav-button">
+            <a class="white-link" href="#">Link_4</a>
+          </button>
+          <button class="nav-button">
+            <a class="black-link" href="#">Link_5</a>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main class="root-container">
+      <section class="ad-section">
+        <div class="big-container">
+          <img
+            class="main_img borders"
+            src="./assets/big_news.jpg"
+            alt="big_image"
+          />
+        </div>
+        <aside class="ads">
+          <div class="ad-container" name="adContainer">
+            <img class="borders" src="./assets/Ads/ad_1.png" alt="publicidad" />
+          </div>
+          <div class="ad-container" name="adContainer">
+            <img class="borders" src="./assets/Ads/ad_2.png" alt="publicidad" />
+          </div>
+          <div class="ad-container" name="adContainer">
+            <img class="borders" src="./assets/Ads/ad_3.png" alt="publicidad" />
+          </div>
+        </aside>
+      </section>
+      <article>
+        <section>
+          <h3>Articulo 1</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            consectetur quasi sint, quia molestiae a cumque assumenda
+            voluptatibus officia quae expedita natus nesciunt! Officiis incidunt
+            ratione distinctio suscipit tempore quis.
+          </p>
+        </section>
+        <section>
+          <h3>Articulo 2</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+            consectetur quasi sint, quia molestiae a cumque assumenda
+            voluptatibus officia quae expedita natus nesciunt! Officiis incidunt
+            ratione distinctio suscipit tempore quis.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer class="root-container">
+      <h3>Mail us!</h3>
+      <form
+        id="form"
+        class="footer-form"
+        onFocusIn="focusElement(event)"
+        onFocusOut="blurElement(event)"
+      >
+        <label for="name">
+          <p>Name:</p>
+          <input
+            id="inputName"
+            name="name"
+            class="input"
+            name="nombre"
+            type="text"
+          />
+        </label>
+        <label for="email">
+          <p>E-mail:</p>
+          <input
+            id="inputMail"
+            name="mail"
+            class="input"
+            name="email"
+            type="email"
+          />
+        </label>
+        <label for="description">
+          <p>Reason:</p>
+          <textarea
+            id="textArea"
+            name="description"
+            class="input"
+            name="description"
+            type=""
+          ></textarea>
+        </label>
+      </form>
+      <button type="button" class="button input" onclick="formSubmited(event)">
+        Submit
+      </button>
+    </footer>
+  </body>
+  <script src="./javaScript/index.js"></script>
+</html>

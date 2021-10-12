@@ -1,0 +1,161 @@
+/* Body Tag Styles */
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Header, Main, Footer Styles */
+.root-container {
+  max-width: 728px;
+  width: 728px;
+}
+
+/* Header Tag Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  background-color: rgb(153, 218, 255);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.headerelements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Elements that have class="nav-button" */
+.nav-button {
+  background: white;
+  border-radius: 5px;
+  border: none;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+/* Every based 2 element that have class="nav-button" */
+.nav-button:nth-of-type(2n) {
+  background-color: black;
+}
+
+.black-link {
+  color: black;
+}
+
+.nav-button a:link {
+  text-decoration: none;
+}
+
+.nav-button {
+  width: 55px;
+}
+
+.white-link {
+  color: white;
+}
+
+/* 
+*
+* STYLES FOR THE MAIN CONTAINER
+*
+*/
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.ads {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.ad-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.main_img {
+  width: 600px;
+  height: 500px;
+}
+
+.borders {
+
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.big-container {
+  margin-bottom: 25px;
+}
+
+.big-container a {
+  width: 600px;
+  height: 500px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(153, 218, 255);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-form {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+}
+
+.footer-form p,
+.footer-form input,
+.footer-form textarea,
+.button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 238, 255);
+}
+
+.footer-form input {
+  height: 25px;
+}
+
+.footer-form textarea {
+  height: 50px;
+}
+
+.button {
+  width: 300px;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(34, 34, 34);
+  background-color: rgb(131, 242, 250);
+}
+
+
+/*Clases dinamicas*/
+.focus {
+  color: rgb(0, 0, 0);
+  border-radius: 1px;
+  overflow: hidden;
+  box-shadow: 0 1px 10px 5px rgba(4, 0, 255, 0.74);
+  transition: 0.4s ease;
+  background-color: rgba(0, 247, 255, 0.308);
+}
