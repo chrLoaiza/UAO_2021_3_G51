@@ -1,0 +1,47 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  border-radius: 2em;
+  background-color: #833471;
+  text-decoration: none;
+  color:white;
+}
+
+#users {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #B53471;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: calc(calc(100% / 3) - 20px);
+  box-sizing: border-box;
+}
+.user-header {
+ background-color: #6F1E51; 
+ border-radius: 10px;
+}
+.user-header img {
+  display: block;
+  border-radius: 50%;
+  width: 75px;
+  object-fit: scale-down;
+  margin: 5px auto;
+}
+
+.user-body {
+  display: flex;
+  flex-direction: column;
+}
+.user-body p, h3 {
+  margin: 5px;
+  word-wrap: break-word;
+}

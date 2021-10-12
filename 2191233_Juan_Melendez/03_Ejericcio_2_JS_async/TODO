@@ -1,0 +1,5 @@
+Taller JS_2:
+  ☐ Escuchar el evento del click
+  ☐ Llamar la API https://randomuser.me/api/?results=5
+  ☐ Obtener la información de la API
+  ☐ Recorrer results
