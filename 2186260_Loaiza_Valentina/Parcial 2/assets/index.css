@@ -1,0 +1,51 @@
+body {
+  font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    margin: 2rem;
+    background-color: #C7DCFF;
+}
+
+header h1 {
+    margin-top: 0;
+  }
+  #request-btn {
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 16px;
+    background-color: #CBC2FF;
+    border-color: #F4DBFF;
+    border-radius: 20px;
+  }
+
+  #card-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: #CBC2FF;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: calc(calc(100% / 5) - 20px);
+    box-sizing: border-box;
+  }
+  .encabezado {
+   background-color: #F4DBFF; 
+   border-radius: 20px;
+  }
+
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .cuerpo p, h3 {
+    margin: 5px;
+    word-wrap: break-word;
+    text-align: center;
+    color: #2B2936;
+  }
+  

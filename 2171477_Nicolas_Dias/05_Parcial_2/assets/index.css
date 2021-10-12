@@ -1,0 +1,51 @@
+header h1 {
+  margin-top: 0;
+}
+#request-btn {
+  width: 150px;
+  padding: 10px;
+  position: relative;
+  left: calc(50% - 75px);
+  background: yellowgreen;
+}
+
+
+#parcial {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ .dogs-header img {
+   display: block;
+     width: 75px;
+   object-fit: scale-down;
+   margin: 5px auto;
+ }
+
+ #card-list{
+
+  display: flex;
+  flex-wrap: wrap; 
+  
+ }
+
+ .dogs-container{
+ 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(226, 168, 8);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: calc(calc(100% / 5) - 20px);
+    box-sizing: border-box;
+  
+
+ }
+
+ #foton{
+   width: 150px;
+   height: 150px;
+ }
+
+ 
