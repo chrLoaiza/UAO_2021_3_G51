@@ -1,0 +1,49 @@
+header h1 {
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#title {
+    text-align: center;
+    font-weight: 700;
+    color: rgb(2, 44, 68);
+}
+
+#subtitle {
+    margin: 10px 0px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+#request-btn {
+    margin: 0 46%;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anime-card-container {
+    color: black;
+    background: rgb(5, 197, 188);
+    margin: 20px;
+    padding: 20px;
+    width: 550px;
+    min-height: 250px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 20px;
+    box-shadow: 6px 5px 10px rgb(22, 172, 109);
+}
