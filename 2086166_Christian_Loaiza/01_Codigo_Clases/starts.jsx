@@ -268,7 +268,7 @@ const Game = (props) => {
       const timerId = setTimeout(() => {
         setSecondsLeft(secondsLeft -1);
       }, 1000)
-      return () => clearTimeout(timerId);
+      return () => clearTimeout(timerId); 
     }
     // Use Effect triggers everytime the component renders
    // console.log('Done Rendering')
