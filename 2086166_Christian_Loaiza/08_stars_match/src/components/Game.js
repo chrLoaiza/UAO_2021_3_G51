@@ -1,33 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import utils from '../math_utils';
-
-//Import components
+import PlayAgain from './PlayAgain';
 import StarsDisplay from './StarsDisplay';
 import PlayNumber from './PlayNumber';
-import PlayAgain from './PlayAgain';
 
-/** Custom Hook
-  prexed with "use{name}"  this helps to identify it as hook
-  Hooks have an order, the should call in the same order
-  Part 4
-*/
+/**
+ * @function useStateGame
+ * Custom Hook
+ * prexed with "use{name}"  this helps to identify it as hook
+ * Hooks have an order, the should call in the same order
+ */
 const useGameState = () => {
   const [stars, setStars] = useState(utils.random(1, 9));
   const [availableNums, setAvailableNums] = useState(utils.range(1, 9));
   const [candidateNums, setCandidateNums] = useState([]);
-  const [secondsLeft, setSecondsLeft] = useState(10);
+  const [secondLeft, setSecondLeft] = useState(10);
+
   useEffect(() => {
-    if (secondsLeft > 0 && availableNums.length > 0) {
-      // This create a new timer on each render, we must to remove timer
-      // to avoid errors
+    // This create a new timer on each render, we must to remove timer
+    // to avoid errors
+    if (secondLeft > 0 && availableNums.length > 0) {
       const timerId = setTimeout(() => {
-        setSecondsLeft(secondsLeft - 1);
+        setSecondLeft(secondLeft - 1);
       }, 1000);
       return () => clearTimeout(timerId);
+      // Use Effect triggers everytime the component renders
+      // console.log('Done Rendering')
+      //return () => console.log('Component is going to rerender')
     }
-    // Use Effect triggers everytime the component renders
-    // console.log('Done Rendering')
-    //return () => console.log('Component is going to rerender')
   });
 
   const setGameState = (newCandidatesNums) => {
@@ -43,19 +43,28 @@ const useGameState = () => {
       setCandidateNums([0]);
     }
   };
-  return { stars, availableNums, candidateNums, secondsLeft, setGameState };
+  return { stars, availableNums, candidateNums, secondLeft, setGameState };
 };
 
 const Game = (props) => {
-  // Part 4 deconstructing
-  const { stars, availableNums, candidateNums, secondsLeft, setGameState } =
+  const { stars, availableNums, candidateNums, secondLeft, setGameState } =
     useGameState();
-
   const candidatesAreWrong = utils.sum(candidateNums) > stars;
   const gameStatus =
-    availableNums.length === 0 ? 'won' : secondsLeft === 0 ? 'lost' : 'active';
-  //const gameIsDone = availableNums.length === 0;
-  //const gameIsLost = secondsLeft === 0;
+    availableNums.length === 0 ? 'won' : secondLeft === 0 ? 'lost' : 'active';
+
+  const onNumberClick = (number, currentStatus) => {
+    if (gameStatus !== 'active' || currentStatus == 'used') {
+      return;
+    }
+    const newCandidatesNums =
+      currentStatus === 'available'
+        ? candidateNums.concat(number)
+        : candidateNums.filter((candidateNum) => candidateNum !== number);
+
+    // Use decontructer function
+    setGameState(newCandidatesNums);
+  };
 
   const numberStatus = (number) => {
     if (!availableNums.includes(number)) {
@@ -67,21 +76,6 @@ const Game = (props) => {
     return 'available';
   };
 
-  const onNumberClick = (number, currentStatus) => {
-    if (gameStatus !== 'active' || currentStatus == 'used') {
-      return;
-    }
-
-    //CandidateNums
-    const newCandidatesNums =
-      currentStatus === 'available'
-        ? candidateNums.concat(number)
-        : candidateNums.filter((candidateNum) => candidateNum !== number);
-
-    // Part 4 Use deconstructer variable
-    setGameState(newCandidatesNums);
-  };
-
   return (
     <div className="game">
       <div className="help">
@@ -90,24 +84,25 @@ const Game = (props) => {
       <div className="body">
         <div className="left">
           {gameStatus != 'active' ? (
-            <PlayAgain onClick={props.startNewGame} gameStatus={gameStatus} />
+            <PlayAgain gameStatus={gameStatus} onClick={props.startNewGame} />
           ) : (
             <StarsDisplay count={stars} />
           )}
         </div>
         <div className="right">
-          {utils.range(1, 9).map((number) => (
-            // Number loop element should has a key
-            <PlayNumber
-              key={number}
-              status={numberStatus(number)}
-              number={number}
-              onClick={onNumberClick}
-            />
-          ))}
+          {utils.range(1, 9).map((number) => {
+            return (
+              <PlayNumber
+                key={number}
+                status={numberStatus(number)}
+                number={number}
+                onClick={onNumberClick}
+              ></PlayNumber>
+            );
+          })}
         </div>
       </div>
-      <div className="timer">Time Remaining: {secondsLeft}</div>
+      <div className="timer">Time Remaining: {secondLeft}</div>
     </div>
   );
 };
